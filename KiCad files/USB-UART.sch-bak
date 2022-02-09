@@ -1,0 +1,179 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title "CNLJS"
+Date "2021-12-22"
+Rev "v0.01"
+Comp "Josip&Zvonimir"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4575 2225 0    50   ~ 0
+CH340G treba oscilator, CH340C ima već ugrađen u sebi
+$Comp
+L Interface_USB:CH340C U3
+U 1 1 61ABC60C
+P 5550 3300
+F 0 "U3" H 5300 3850 50  0000 C CNN
+F 1 "CH340C" H 5725 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5600 2750 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf" H 5200 4100 50  0001 C CNN
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 61ABDCF7
+P 4775 2800
+F 0 "C17" H 4867 2846 50  0000 L CNN
+F 1 "10n" H 4867 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4775 2800 50  0001 C CNN
+F 3 "~" H 4775 2800 50  0001 C CNN
+	1    4775 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2700 5450 2650
+Wire Wire Line
+	5450 2650 4775 2650
+Wire Wire Line
+	4775 2700 4775 2650
+$Comp
+L power:GND #PWR065
+U 1 1 61AC0C80
+P 4775 2950
+F 0 "#PWR065" H 4775 2700 50  0001 C CNN
+F 1 "GND" H 4780 2777 50  0000 C CNN
+F 2 "" H 4775 2950 50  0001 C CNN
+F 3 "" H 4775 2950 50  0001 C CNN
+	1    4775 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 2950 4775 2900
+$Comp
+L Device:C_Small C19
+U 1 1 61AC5449
+P 6450 2800
+F 0 "C19" H 6542 2846 50  0000 L CNN
+F 1 "100n" H 6542 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6450 2800 50  0001 C CNN
+F 3 "~" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 61AC544F
+P 6450 2950
+F 0 "#PWR068" H 6450 2700 50  0001 C CNN
+F 1 "GND" H 6455 2777 50  0000 C CNN
+F 2 "" H 6450 2950 50  0001 C CNN
+F 3 "" H 6450 2950 50  0001 C CNN
+	1    6450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2950 6450 2900
+Wire Wire Line
+	6450 2700 6450 2650
+Wire Wire Line
+	5550 2650 5550 2700
+NoConn ~ 5150 3000
+$Comp
+L power:GND #PWR066
+U 1 1 61AD71F0
+P 5550 3900
+F 0 "#PWR066" H 5550 3650 50  0001 C CNN
+F 1 "GND" H 5555 3727 50  0000 C CNN
+F 2 "" H 5550 3900 50  0001 C CNN
+F 3 "" H 5550 3900 50  0001 C CNN
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 3500
+NoConn ~ 5950 3400
+NoConn ~ 5950 3300
+NoConn ~ 5950 3200
+NoConn ~ 5950 3700
+Wire Wire Line
+	6450 2650 5550 2650
+Wire Wire Line
+	6450 2600 6450 2650
+Connection ~ 6450 2650
+$Comp
+L Device:C_Small C18
+U 1 1 61AE423A
+P 6150 3600
+F 0 "C18" V 5921 3600 50  0000 C CNN
+F 1 "100n" V 6012 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6150 3600 50  0001 C CNN
+F 3 "~" H 6150 3600 50  0001 C CNN
+	1    6150 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3600 5950 3600
+Text GLabel 6325 3600 2    50   Input ~ 0
+RESET
+$Comp
+L Device:R_Small R15
+U 1 1 61AE5C77
+P 6100 2900
+F 0 "R15" V 6025 2850 50  0000 L CNN
+F 1 "1k" V 6100 2850 39  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6100 2900 50  0001 C CNN
+F 3 "~" H 6100 2900 50  0001 C CNN
+	1    6100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 61AE8147
+P 6100 3100
+F 0 "R16" V 6025 3050 50  0000 L CNN
+F 1 "1k" V 6100 3050 39  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6100 3100 50  0001 C CNN
+F 3 "~" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3100 5975 3100
+Wire Wire Line
+	5975 3100 5975 3000
+Wire Wire Line
+	5975 3000 5950 3000
+Wire Wire Line
+	6000 2900 5950 2900
+Text GLabel 6200 3100 2    50   Input ~ 0
+TX
+Text GLabel 6200 2900 2    50   Input ~ 0
+RX
+Wire Wire Line
+	6325 3600 6250 3600
+Wire Wire Line
+	5100 3200 5150 3200
+Wire Wire Line
+	5100 3300 5150 3300
+Text GLabel 5100 3200 0    50   Input ~ 0
+D+
+Text GLabel 5100 3300 0    50   Input ~ 0
+D-
+$Comp
+L power:VDD #PWR067
+U 1 1 61C72A49
+P 6450 2600
+F 0 "#PWR067" H 6450 2450 50  0001 C CNN
+F 1 "VDD" H 6465 2773 50  0000 C CNN
+F 2 "" H 6450 2600 50  0001 C CNN
+F 3 "" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

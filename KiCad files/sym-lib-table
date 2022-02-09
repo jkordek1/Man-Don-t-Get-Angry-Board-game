@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ttp223-ba6")(type "Legacy")(uri "${KIPRJMOD}/ttp223-ba6.lib")(options "")(descr ""))
+  (lib (name "ws2812-4020")(type "Legacy")(uri "${KIPRJMOD}/ws2812-4020.lib")(options "")(descr ""))
+  (lib (name "CNLJS-symbols")(type "KiCad")(uri "${KIPRJMOD}/CNLJS-symbols.kicad_sym")(options "")(descr ""))
+)

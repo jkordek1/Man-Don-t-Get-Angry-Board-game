@@ -4,7 +4,7 @@ Note: To fix the current KiCad 6.0 issues regarding 3D component models, add the
 
 The schematic is about 80% done.
 
-Multiple boards were produced to test how:
-  - touchpads shapes affect the capacitance in order to detect the touch
-  - different types of LEDs emit light through PCB and 3D printed objects
-  - PCB mask affects the emitted light through PCB
+Multiple boards were produced to test:
+  - how touchpad shapes affect the capacitance in order to detect the touch
+  - different types of LEDs which emit light through PCB and 3D printed objects
+  - how PCB mask affects the emitted light through PCB

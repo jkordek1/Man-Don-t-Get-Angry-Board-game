@@ -10,3 +10,6 @@ Multiple boards were produced to test:
   - how PCB mask affects the emitted light through PCB
 
 Results of tests are shown in Images folder. Images unfortunately can't show the actual LED light effect.
+
+![](Images/LED-test.PNG)
+![](Images/touchpad-test.PNG)

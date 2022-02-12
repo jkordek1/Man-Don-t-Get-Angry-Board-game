@@ -1,4 +1,4 @@
-19802423189791935
+19810639215750243
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55503,7 +55503,21 @@ WS2812-4020-dual-6mm_bezMaske
 8
 5
 Josip_global
+WS2812-4020-dual-6mm_rupa
+
+
+0
+8
+5
+Josip_global
 WS2812-4020-dual-8mm_bezMaske
+
+
+0
+8
+5
+Josip_global
+WS2812-4020-dual-8mm_rupa
 
 
 0
@@ -55517,7 +55531,21 @@ WS2812-4020-dual-10mm_bezMaske
 8
 5
 Josip_global
+WS2812-4020-dual-10mm_rupa
+
+
+0
+8
+5
+Josip_global
 WS2812-4020-dual-12mm_bezMaske
+
+
+0
+8
+5
+Josip_global
+WS2812-4020-dual-12mm_rupa
 
 
 0
@@ -84503,3 +84531,10 @@ varistor SIOV
 0
 2
 2
+test_library
+test1
+
+
+0
+0
+0

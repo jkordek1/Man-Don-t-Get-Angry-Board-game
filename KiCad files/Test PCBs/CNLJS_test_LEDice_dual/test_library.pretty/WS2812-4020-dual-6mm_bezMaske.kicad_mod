@@ -1,7 +1,7 @@
 (footprint "WS2812-4020-dual-6mm_bezMaske" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 61EB1517)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 1.8) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 08e2d62f-f99a-4268-8b33-617dfcc63e75)

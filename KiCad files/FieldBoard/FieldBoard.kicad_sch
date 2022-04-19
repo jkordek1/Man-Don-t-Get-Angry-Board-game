@@ -797,6 +797,11 @@
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid aa665edf-98db-4100-8c21-a72862716abc)
   )
+  (text "TO-DO:\n- konektor napajanja koji može podnijeti 5A"
+    (at 26.67 155.575 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid d6ca12a5-0d1f-4802-9560-feacbab21d91)
+  )
 
   (symbol (lib_id "Device:R_Small") (at 95.885 76.835 90) (unit 1)
     (in_bom yes) (on_board yes)
@@ -2198,76 +2203,76 @@
       (reference "R4") (unit 1) (value "470R") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/f2afdb2f-9391-4cec-901b-85a93e07430a"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/b7003926-dbb6-4145-b1f6-ce1e250c690e"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/32b8f6ef-fe19-448e-9bc3-c4baa1834ea8"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/46ecad93-7ca1-492e-9bc1-1fa9dd1841d7"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/870929b6-85bb-4730-9a37-375aca8976b5"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/73bec328-37c2-4c57-a553-1220bb0b1d05"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/ff893075-9c8c-4519-96bc-8b15a5dac4e0"
-      (reference "TP7") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/24aa5ff9-83a8-4975-8ea5-f494562f1d6a"
-      (reference "TP8") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/9ff9c206-726c-4a69-8e07-75ee55bef344"
-      (reference "TP9") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/fe012903-350c-4138-a0e8-16353361383f"
-      (reference "TP10") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP10") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/19f429a6-677f-43f6-89a3-19c6b6e5c5d9"
-      (reference "TP11") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP11") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/fd82520f-2b71-4935-a276-f713db092349"
-      (reference "TP12") (unit 1) (value "TestPoint") (footprint "test_library:TP_11mm_strelicaLijevo")
+      (reference "TP12") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/06f97ced-c48a-4269-9d29-bc99f1061eb7"
-      (reference "U1") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U1") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/925bf12b-6fa0-46cc-b8cf-9908bdd19f62"
-      (reference "U2") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U2") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/d20fab24-e6a4-4d9a-868f-35fc04ed6fad"
-      (reference "U3") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U3") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/5452c99d-37eb-4314-b287-192c3dbd8d70"
-      (reference "U4") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U4") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/c0954bcb-eabf-43b0-8054-76f817450d4f"
-      (reference "U5") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U5") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/0959f30e-a2ed-4fa9-84e8-dd4d25983cd0"
-      (reference "U6") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U6") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/3aaed85b-d72d-4ce0-aef2-dc7077b0318f"
-      (reference "U7") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U7") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/0e58e455-439d-4805-baaf-ede6598932da"
-      (reference "U8") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U8") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/078ce96e-f0cd-4cb5-af0d-6097edbfb4d1"
-      (reference "U9") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U9") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/25837a02-67b0-47d4-81db-722246363686"
-      (reference "U10") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U10") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/441f897f-85a6-4754-a83f-523cd4afad80"
-      (reference "U11") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U11") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/3c394a32-751f-48ca-bfb7-93be96f92c8f/e8eec3c4-31ef-44d3-8525-b9849bd323ca"
-      (reference "U12") (unit 1) (value "TTP223-BA6") (footprint "")
+      (reference "U12") (unit 1) (value "TTP223-BA6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
   )
 )

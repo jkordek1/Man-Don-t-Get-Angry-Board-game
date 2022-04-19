@@ -1,4 +1,4 @@
-20113084056985934
+20114734455032408
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51904,6 +51904,13 @@ fiducial
 0
 1
 0
+FieldBoard_footprint
+WS2812-4020-single-6mm_bezMaske
+
+
+0
+4
+4
 Filter
 Filter_1109-5_1.1x0.9mm
 5-pin SAW filter package - 1.1x0.9 mm Body; (see https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en-gb)

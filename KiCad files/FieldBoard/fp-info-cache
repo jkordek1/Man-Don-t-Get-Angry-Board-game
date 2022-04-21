@@ -1,4 +1,4 @@
-20122986387229316
+20124635858769121
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51903,6 +51903,13 @@ Circular Fiducial, 1mm bare copper, 3mm soldermask opening (recommended)
 fiducial
 0
 1
+0
+FieldBoard_footprint
+ConnectionPad
+
+
+0
+0
 0
 FieldBoard_footprint
 TP_11mm_kvacica

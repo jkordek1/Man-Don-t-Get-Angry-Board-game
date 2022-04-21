@@ -165,8 +165,7 @@
       },
       "track_widths": [
         0.0,
-        0.2032,
-        0.254
+        0.3556
       ],
       "via_dimensions": [
         {
@@ -490,10 +489,6 @@
     [
       "8a1a1f6e-f796-4827-bd7c-2cbb156029f2",
       "Positions (52LEDs)"
-    ],
-    [
-      "3c394a32-751f-48ca-bfb7-93be96f92c8f",
-      "Touchpads (12)"
     ]
   ],
   "text_variables": {}

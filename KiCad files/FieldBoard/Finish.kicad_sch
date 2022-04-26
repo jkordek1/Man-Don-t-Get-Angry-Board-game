@@ -430,7 +430,7 @@
   )
 
   (symbol (lib_id "power:VDD") (at 216.535 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 33f5aef2-1dfb-4624-ac78-d2ee25b814fb)
     (property "Reference" "#PWR028" (id 0) (at 216.535 93.98 0)
       (effects (font (size 1.27 1.27)) hide)

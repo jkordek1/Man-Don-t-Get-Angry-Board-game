@@ -507,8 +507,7 @@
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid 58c2f037-79e2-47e5-ab60-05d98a20fbef)
   )
-  (text "TO-DO:\n- konektor napajanja koji može podnijeti 5A\n- dodati rupe"
-    (at 26.67 155.575 0)
+  (text "TO-DO:\n- dodati rupe" (at 26.67 155.575 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid d6ca12a5-0d1f-4802-9560-feacbab21d91)
   )
@@ -585,7 +584,7 @@
     (property "Reference" "#FLG0101" (id 0) (at 95.25 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 95.25 55.4792 0))
+    (property "Value" "PWR_FLAG" (id 1) (at 95.25 55.4792 0))
     (property "Footprint" "" (id 2) (at 95.25 59.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )

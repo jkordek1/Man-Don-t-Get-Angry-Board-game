@@ -21447,7 +21447,7 @@
   (segment (start 123.3 87.15) (end 123.3 84.4) (width 0.3556) (layer "F.Cu") (net 103) (tstamp 447ac866-5d93-446a-b27a-6a9fd522dd1d))
   (segment (start 123.3 84.4) (end 120.7 81.8) (width 0.3556) (layer "F.Cu") (net 103) (tstamp d6da24ae-33d0-4ef5-b51f-1570b09e0bd3))
 
-  (zone (net 2) (net_name "VDD") (layer "F.Cu") (tstamp bede1092-872b-4e49-9d3a-d552aec96b57) (hatch edge 0.508)
+  (zone (net 2) (net_name "VDD") (layer "F.Cu") (tstamp 2dcaf951-7f64-4bcd-a5a9-bd422c2a0516) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))

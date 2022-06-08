@@ -1348,52 +1348,52 @@
       (reference "#PWR0190") (unit 1) (value "GND") (footprint "")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/b8cf7d23-3542-43cf-8f5d-66f6a9bb8320"
-      (reference "FIN1") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN1") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/65901c94-ba42-4ccb-9da6-82d8046dd05a"
-      (reference "FIN2") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN2") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/f0e822e5-0d42-407c-8727-e658bdb3f2ff"
-      (reference "FIN3") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN3") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/befca30d-5382-4d65-86ee-94b2d45d2975"
-      (reference "FIN4") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN4") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/b8123db0-baba-4737-916a-88622db2929d"
-      (reference "FIN5") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN5") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/fa4460f0-16eb-4961-95cb-6ffed1d21e6e"
-      (reference "FIN6") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN6") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/441c8171-7d6d-484d-8dd0-92e7c16c2eab"
-      (reference "FIN7") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN7") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/726a3083-c1d9-4f82-8603-5ca2ec331931"
-      (reference "FIN8") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN8") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/b419427f-9d89-4d1d-8b8b-9e445cd6c8de"
-      (reference "FIN9") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN9") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/80170904-896b-4a13-831d-8d79202d9b76"
-      (reference "FIN10") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN10") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/b1c05901-bb14-4570-9dfa-81517b42ee63"
-      (reference "FIN11") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN11") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/97e574aa-7df1-4370-aebf-2fd4344aee4f"
-      (reference "FIN12") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN12") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/3e32daa0-f222-4509-8e1e-6260411a5b60"
-      (reference "FIN13") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN13") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/c6c2ef0c-a3e1-4011-8fb0-12882133c2f4"
-      (reference "FIN14") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN14") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/8e8e7909-8ffc-469d-9227-ccc947a96671"
-      (reference "FIN15") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN15") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/cc90ed9d-8106-4bbf-b5da-b6d47c433212/841ccb18-b037-4c51-87ad-aa12e914fb48"
-      (reference "FIN16") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "FIN16") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/b94ea365-3315-4fc0-b2a6-08a9f746e485"
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
@@ -1429,208 +1429,208 @@
       (reference "LED9") (unit 1) (value "WS2812-4020_single") (footprint "FieldBoard_footprint:WS2812-mini")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/90ddbd99-f7c3-400d-a7c9-d51bd86748d2"
-      (reference "POS17") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS17") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/8df81a91-e3b0-4664-bde2-2d19dc1dff96"
-      (reference "POS18") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS18") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/f8ce87cd-20ff-4ade-a421-b8bc1eb271e2"
-      (reference "POS19") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS19") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/23d74809-8276-427c-a7b7-4f266c2c885f"
-      (reference "POS20") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS20") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/29af560a-398c-4a0a-9e7e-38a071a7041d"
-      (reference "POS21") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS21") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/a28a6bb4-caac-4e3a-b5d9-ccd9a8d41afa"
-      (reference "POS22") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS22") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/9c4b80f7-4eae-43f5-9984-3960bd73ec58"
-      (reference "POS23") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS23") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/554fdfcd-2b1c-418c-a0b0-caa7a0335cd3"
-      (reference "POS24") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS24") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/39a6f6ef-d23a-443c-a616-0db50afd2f7d"
-      (reference "POS25") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS25") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/5e918568-b961-4c83-8d35-f4ff3b6093dd"
-      (reference "POS26") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS26") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/56183296-7684-461a-a73b-01bc678d1ce0"
-      (reference "POS27") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS27") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/18697639-9a90-4ac0-a791-ee1caf0fa848"
-      (reference "POS28") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS28") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/d0a222c0-83ef-4ffb-bf65-0beaa3a3f91a"
-      (reference "POS29") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS29") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/985cead9-1072-49ea-82da-897199930699"
-      (reference "POS30") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS30") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/04e5b9a2-c8e4-4fab-af56-75aec1af9128"
-      (reference "POS31") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS31") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00244bb8-910f-453d-9ff8-e1e18731beb3/0c68804a-675d-4ca2-975e-7d4c905cf17c"
-      (reference "POS32") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS32") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/a822a6c7-f6bf-458d-b516-630604588a7f"
-      (reference "POS33") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS33") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/5ea10311-383b-458b-9a2c-ef3b1ee696e6"
-      (reference "POS34") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS34") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/b5fa7895-5605-41f0-9174-4647d3513d4f"
-      (reference "POS35") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS35") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/83a8b08e-d4ba-4d4f-bff7-be54d3b8e801"
-      (reference "POS36") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS36") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/5ab68b5e-7776-44e5-9d82-5ab21f9ee820"
-      (reference "POS37") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS37") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/26940801-8169-4f98-8df5-e655d12a5a48"
-      (reference "POS38") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS38") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/65976535-a495-4299-8c87-c4de426938be"
-      (reference "POS39") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS39") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/7c194e8a-6d57-48b8-af79-5b70580652f0"
-      (reference "POS40") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS40") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/9509d293-6e79-4ab2-b14b-176b1c096c56"
-      (reference "POS41") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS41") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/b4a95bc8-3a69-47db-a360-1bbd1ab3e123"
-      (reference "POS42") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS42") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/1bfcb825-3578-45a2-89e3-304256b10c89"
-      (reference "POS43") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS43") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/72c6e6aa-384a-4267-b543-9ec831b06288"
-      (reference "POS44") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS44") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/a59f9712-6f6b-452e-9539-4a659df4b6fe"
-      (reference "POS45") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS45") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/f66689dd-c72e-4d1e-831e-e91c72301dd9"
-      (reference "POS46") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS46") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/0ea4939e-b461-4414-b196-7f0871ad2952"
-      (reference "POS47") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS47") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/8daf0c65-4ec9-472b-85aa-dcb722cf3b6e"
-      (reference "POS48") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS48") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/88504a4d-ddc1-452a-9795-d08928e0c324"
-      (reference "POS49") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS49") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/9c903a07-1207-497d-bec4-3e303c9c0b38"
-      (reference "POS50") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS50") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/761c30d1-092f-41bf-90e0-305a9f111694"
-      (reference "POS51") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS51") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/8a3c0dba-9e03-4b0d-80e9-ed08f96632d6"
-      (reference "POS52") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS52") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/c8a25e75-2360-4fd7-afa5-1f8d74f75d36"
-      (reference "POS53") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS53") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/e615ba53-b817-4909-84bb-c1a635c1f873"
-      (reference "POS54") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS54") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/529c4a60-d716-4a67-8e2e-a577896a23e9"
-      (reference "POS55") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS55") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/c72524d0-3ed1-4daa-854d-bbc62f1c2795"
-      (reference "POS56") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS56") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/26eb0753-7d65-44bf-9570-96eca63790bb"
-      (reference "POS57") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS57") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/819faad7-1c63-4bdc-880e-d2d278d765e0"
-      (reference "POS58") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS58") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/f0f18aee-781b-4db3-96a7-1a2acacf9d10"
-      (reference "POS59") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS59") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/9e1c3496-efee-41a2-9430-c010cc774eb7"
-      (reference "POS60") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS60") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/11463382-84ee-449b-9a32-b75af2d145c8"
-      (reference "POS61") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS61") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/918a9d52-87d7-46d6-b823-b6e6632f2648"
-      (reference "POS62") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS62") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/af0bd01d-8a94-4317-99a9-60d2a7af78be"
-      (reference "POS63") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS63") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/1557ba6c-2fbb-42d4-885e-97546407bd10"
-      (reference "POS64") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS64") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/1792e481-12bb-49d8-8d15-c7376864ff1b"
-      (reference "POS65") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS65") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/cf75cfe1-53db-4232-a4b3-053cb4f44382"
-      (reference "POS66") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS66") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/0c7e641b-4f93-4757-951e-fa0f197787cf"
-      (reference "POS67") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS67") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/0ead6a07-8f1d-4aa3-a352-feec5e5fd916"
-      (reference "POS68") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS68") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/fb447853-841b-4fa4-abbc-f98bc6c23072"
-      (reference "POS69") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS69") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/b6678649-82f9-4e18-95d7-e4ddf04d56d1"
-      (reference "POS70") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS70") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/9a5402ac-2d31-4c9b-b585-d33f4aa20c24"
-      (reference "POS71") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS71") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/172b87d7-2cc2-41e5-95ea-959a1f33bf1c"
-      (reference "POS72") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS72") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/780da4c1-fa7b-4e8f-98fc-4dca230a71ee"
-      (reference "POS73") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS73") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/e969f6b8-08fc-46df-a578-7e8c95db3806"
-      (reference "POS74") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS74") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/17546f91-f814-4cbf-8c52-9d908ff696bc"
-      (reference "POS75") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS75") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/4f23df98-ba26-4846-b9b0-b95f162ef6d6"
-      (reference "POS76") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS76") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/69e96d3e-2ed4-4766-b89b-bc07b85e8356"
-      (reference "POS77") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS77") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/578d959c-2295-4c86-81e4-02663030a1ee"
-      (reference "POS78") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS78") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/cd787a05-ca28-423f-8fd5-c0642be4efc8"
-      (reference "POS79") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS79") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/479448e3-ae7d-46c1-82e0-9bd470aa3016"
-      (reference "POS80") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS80") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/351214f0-e32a-425f-85dd-759e6c9c00c2"
-      (reference "POS81") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS81") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/eeea402c-8358-445d-a1fa-b8812a3681ac"
-      (reference "POS82") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS82") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/d7d3f1f8-c1f3-441e-aad9-f4bb926bfc2c"
-      (reference "POS83") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS83") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/8a1a1f6e-f796-4827-bd7c-2cbb156029f2/2a3d4d3f-2e0a-4559-a14b-97e8646a5133"
-      (reference "POS84") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "POS84") (unit 1) (value "WS2812-4020_dual") (footprint "FieldBoard_footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/07e64401-0f2b-4fcd-8cd8-55cc0fcd8e73"
       (reference "R1") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")

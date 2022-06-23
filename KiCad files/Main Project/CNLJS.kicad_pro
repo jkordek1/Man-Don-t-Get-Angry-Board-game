@@ -388,7 +388,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 16,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -453,6 +453,26 @@
     [
       "00000000-0000-0000-0000-0000616792fe",
       "USB-UART"
+    ],
+    [
+      "0fad21f5-d92d-48ee-888d-008cd1e4dd00",
+      "Finish (16LEDs)"
+    ],
+    [
+      "9ad8c3f9-129f-4b19-a2d2-c14ac61cd1a0",
+      "Start (16LEDs)"
+    ],
+    [
+      "d2a23027-66f0-49d8-acae-951793fef563",
+      "Cube (9LEDs)"
+    ],
+    [
+      "8fcb86d2-b5bf-473a-be63-a159f3d7ce74",
+      "Positions (52LEDs)"
+    ],
+    [
+      "f9d26e2a-d901-40f9-932a-f51e34dd8264",
+      "Touchpad"
     ]
   ],
   "text_variables": {}

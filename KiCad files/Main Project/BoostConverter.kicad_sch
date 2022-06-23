@@ -727,10 +727,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a49e8613-3cd2-48ed-8977-6bb5023f7722)
   )
-  (text "Ove diode imaju prenizak If" (at 137.795 69.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d9947699-a938-4527-ba8e-f1cb77437b7c)
-  )
 
   (symbol (lib_id "power:VBUS") (at 139.065 93.345 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)

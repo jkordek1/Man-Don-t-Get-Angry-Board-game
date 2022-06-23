@@ -19,6 +19,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
+  (text "TODO:\n\n- power sklopka koja može prekinuti 1A" (at 18.415 186.055 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1072599c-2bac-423a-98ee-1f31292711bb)
+  )
   (text "USB-C\nCONNECTOR" (at 46.99 67.31 0)
     (effects (font (size 2.54 2.54) (thickness 0.5994) bold) (justify left bottom))
     (uuid 109caac1-5036-4f23-9a66-f569d871501b)
@@ -1304,10 +1308,10 @@
       (reference "R19") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/e0d248f8-4d45-4c44-9cbe-ba124146b9fd"
-      (reference "R20") (unit 1) (value "4k7") (footprint "")
+      (reference "R20") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/da14fb81-16d7-4a73-ad65-9fc7097adf93"
-      (reference "R21") (unit 1) (value "4k7") (footprint "")
+      (reference "R21") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/ec148c32-c38a-49d8-bb9a-95d9b3c6258c"
       (reference "R33") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")

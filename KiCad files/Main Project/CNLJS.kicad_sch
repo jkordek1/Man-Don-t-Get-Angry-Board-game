@@ -255,7 +255,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
+  (text "TODO:\n\n- simbol i footprint regulatora napona\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)
@@ -1464,9 +1464,6 @@
     )
     (path "/00000000-0000-0000-0000-000061c555c0/cfacaea5-8693-4b38-9281-eb219ddd999e"
       (reference "D16") (unit 1) (value "SS14") (footprint "Diode_SMD:D_SMA")
-    )
-    (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061c5d210"
-      (reference "F1") (unit 1) (value "1A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/0fad21f5-d92d-48ee-888d-008cd1e4dd00/ae0b6982-f26e-4c7f-870c-208a6ca654b7"
       (reference "FIN1") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")

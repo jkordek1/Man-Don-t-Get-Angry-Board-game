@@ -255,7 +255,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n\n- power sklopka koja može prekinuti 1A\n- rupe"
+  (text "TODO:\n\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)
@@ -355,17 +355,17 @@
     (pin "1" (uuid 1b28e70d-21c5-47dd-8842-4e9653b8c013))
   )
 
-  (symbol (lib_id "power:GND") (at 269.875 153.67 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 269.875 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 682ded90-225d-4158-9969-13f71896f4ba)
-    (property "Reference" "#PWR0256" (id 0) (at 269.875 160.02 0)
+    (property "Reference" "#PWR0256" (id 0) (at 269.875 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 269.875 158.1134 0))
-    (property "Footprint" "" (id 2) (at 269.875 153.67 0)
+    (property "Value" "GND" (id 1) (at 269.875 160.6534 0))
+    (property "Footprint" "" (id 2) (at 269.875 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 269.875 153.67 0)
+    (property "Datasheet" "" (id 3) (at 269.875 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f5763731-8808-424d-a26c-d16cf9f13175))
@@ -455,17 +455,17 @@
     (pin "1" (uuid 5fa58008-c5cd-404c-a0a0-2a434837d0ae))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 269.875 153.67 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 269.875 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fd164d6f-fb67-47af-8521-17e7199b35a8)
-    (property "Reference" "#FLG0101" (id 0) (at 269.875 151.765 0)
+    (property "Reference" "#FLG0101" (id 0) (at 269.875 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (id 1) (at 269.875 150.0942 0))
-    (property "Footprint" "" (id 2) (at 269.875 153.67 0)
+    (property "Value" "PWR_FLAG" (id 1) (at 269.875 152.6342 0))
+    (property "Footprint" "" (id 2) (at 269.875 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 269.875 153.67 0)
+    (property "Datasheet" "~" (id 3) (at 269.875 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 583fc732-8526-4e18-b999-f301c3ae0d2e))
@@ -1366,6 +1366,30 @@
     (path "/d15fae73-f2e2-41df-8bff-bf5121e77911"
       (reference "#PWR0259") (unit 1) (value "+BATT") (footprint "")
     )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/224326e9-6721-42bd-923c-1d80b232d2d7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/4b9a06af-3889-4def-b72d-3db0778e8f70"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/5ec035d5-980b-4bd6-9c7d-5f4aa6d059b4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/8239e60d-d898-47c8-912f-74ac7fedd9c6"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/8a060ca0-0b97-4550-b3d8-bbe0eec74aa8"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/a037445a-51f6-4c7c-9ab4-7237fcd97c9a"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/bd970e82-2a41-4aee-9244-6fd79951b48d"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/c58a8609-0659-42ba-84bc-36c9a5b1a304"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061ca59bb"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "CNLJS:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal")
     )
@@ -1486,17 +1510,8 @@
     (path "/00000000-0000-0000-0000-000061c3bc04/00000000-0000-0000-0000-000061c3f0e6"
       (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "CNLJS:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/ce1c4906-9993-48b6-803b-b85ec749e387"
-      (reference "J17") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/a9696cbc-c331-44e1-a0a1-0ba85d32e607"
-      (reference "J18") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/0c0e04c1-71d3-4ae9-ac89-b28fd17b95fe"
-      (reference "J19") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/36ba6937-0893-4bfd-a918-18393dc34f97"
-      (reference "J20") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/51b95aa3-e727-4d4c-a49c-fca270ad13c2"
+      (reference "J?") (unit 1) (value "Conn_01x06") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c555c0/2316558d-d6e5-4f42-a145-5ce18e9c2401"
       (reference "L1") (unit 1) (value "47uH") (footprint "CNLJS:L_Taiyo-Yuden_NR-50xx")

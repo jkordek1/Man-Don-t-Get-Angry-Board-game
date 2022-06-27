@@ -12,58 +12,6 @@
   )
 
   (lib_symbols
-    (symbol "power:+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+BATT" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag battery" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+BATT\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+BATT_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+BATT_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+BATT" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -255,7 +203,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n\n- simbol i footprint regulatora napona\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
+  (text "TODO:\n\n- ako je spojen VBUS, onda ne dovoditi VCC na regulator napona\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)
@@ -405,24 +353,6 @@
     (pin "1" (uuid 397bc723-e353-49e2-8703-99162910d684))
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 223.52 156.21 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid a365a5c3-a7f1-4e1e-a88d-d7ac72c8a5b4)
-    (property "Reference" "#FLG017" (id 0) (at 223.52 158.115 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (id 1) (at 225.171 157.9138 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (id 2) (at 223.52 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 223.52 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 55c23d97-a2aa-4620-b6ca-a94dd685f5df))
-  )
-
   (symbol (lib_id "power:VBUS") (at 254 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c2d8955c-811b-4fc1-8ffe-c32f7bc5e439)
@@ -437,22 +367,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e795ca8-c0a1-4fae-bc4d-69ff0b4e6ea6))
-  )
-
-  (symbol (lib_id "power:+BATT") (at 223.52 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid d15fae73-f2e2-41df-8bff-bf5121e77911)
-    (property "Reference" "#PWR0259" (id 0) (at 223.52 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT" (id 1) (at 223.52 152.6342 0))
-    (property "Footprint" "" (id 2) (at 223.52 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 223.52 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5fa58008-c5cd-404c-a0a0-2a434837d0ae))
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 269.875 156.21 0) (unit 1)
@@ -571,9 +485,6 @@
   )
 
   (symbol_instances
-    (path "/a365a5c3-a7f1-4e1e-a88d-d7ac72c8a5b4"
-      (reference "#FLG017") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006165e463/19cdce5a-54ad-4d2a-bfdd-cc69216c4c9f"
       (reference "#FLG018") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -1267,20 +1178,20 @@
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/aa556110-4985-4e4b-ae77-10ccc0f8e752"
       (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/1b936b10-bd0b-4cd2-a118-96aed6cc58d6"
-      (reference "#PWR0227") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/e62e149d-dc97-434c-8523-ab381540ffeb"
+      (reference "#PWR0227") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/fb71447b-1d46-4ddb-9bef-457de3e1fea9"
-      (reference "#PWR0228") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/af277ab5-0337-440d-be85-051c8c2fab4c"
+      (reference "#PWR0228") (unit 1) (value "VDD") (footprint "")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/cc86950e-a532-483c-89b4-26a352c5501e"
       (reference "#PWR0229") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/76ae9489-bb8e-4cf9-90d1-cbd64a055f9a"
-      (reference "#PWR0230") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/7bb4082c-4708-4435-9495-4b0ab25b949c"
+      (reference "#PWR0230") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/a78735ab-40aa-4624-91c9-198c425b3e97"
-      (reference "#PWR0231") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/aafc586b-6d3d-4f57-aa92-2137355548f4"
+      (reference "#PWR0231") (unit 1) (value "VDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/a13ff330-ccbe-4157-b6cf-ffb97876cacd"
       (reference "#PWR0232") (unit 1) (value "GND") (footprint "")
@@ -1363,44 +1274,44 @@
     (path "/9e08c63f-c403-4953-a6d6-89409e2b3ffa"
       (reference "#PWR0258") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/d15fae73-f2e2-41df-8bff-bf5121e77911"
-      (reference "#PWR0259") (unit 1) (value "+BATT") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/ad866e92-da51-4123-b690-13a056a00cdf"
+      (reference "#PWR0259") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/dbe6d465-f0c0-4d17-9b0b-89f1e30bbe0b"
-      (reference "#PWR0260") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/59fa2d8e-1ada-4920-8c01-f1ebdc9d5157"
+      (reference "#PWR0260") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/0232ec8a-0781-48d3-91a3-712928f386cf"
-      (reference "#PWR0261") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/615193ac-fb7d-46d4-9609-e5a91655a8a1"
+      (reference "#PWR0261") (unit 1) (value "VDD") (footprint "")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/05c1dbfd-1fdd-4b78-8b5c-11c9b323b91a"
       (reference "#PWR0262") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/a5267b66-74d2-406c-98c0-cc2a751750b9"
-      (reference "#PWR0263") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/bedb0b38-5d9d-4774-a03b-b03163ab2f1f"
+      (reference "#PWR0263") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/f0491c0d-7706-4405-97e7-575ea56c9bdf"
-      (reference "#PWR0264") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/90ea5f9f-fb78-4345-b300-6d1dfc62052e"
+      (reference "#PWR0264") (unit 1) (value "VDD") (footprint "")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/76ec0616-3436-4caa-a6e5-f92b07e4aa60"
       (reference "#PWR0265") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/b517bf74-efef-4bde-a057-6d30e59ca24c"
-      (reference "#PWR0266") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/23ccb30f-82d7-44b5-9ee0-8106e1872971"
+      (reference "#PWR0266") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/b5ce72e8-fc7c-4d88-831b-4ea75cc659d8"
-      (reference "#PWR0267") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/a86aa3e5-976f-4bf3-86ba-b60860c43415"
+      (reference "#PWR0267") (unit 1) (value "VDD") (footprint "")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/2925481e-08e4-479c-b152-d8651139facd"
       (reference "#PWR0268") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/af984e30-7091-4a33-8f8a-928b314d5bf6"
-      (reference "#PWR0269") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/59b9bc1c-c8b3-4840-9e74-079af1db52f4"
-      (reference "#PWR0270") (unit 1) (value "VCC") (footprint "")
+    (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/2ba41624-20cc-41a6-9c0d-1249b94007aa"
+      (reference "#PWR0269") (unit 1) (value "VDD") (footprint "")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/09f18de3-3583-4c3e-bbbf-26e9afd221eb"
       (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c3bc04/e895b2a7-400f-4f1f-979b-1deddd7fb9ef"
+      (reference "#PWR0272") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061ca59bb"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "CNLJS:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal")
@@ -1834,6 +1745,9 @@
     (path "/00000000-0000-0000-0000-00006166ecfb/d1671bb9-c9c2-4587-af01-00e9367d4552"
       (reference "R22") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000061c3bc04/0591dc1a-2acd-487b-bc0c-1292f826b676"
+      (reference "R23") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-00006166ecfb/ec148c32-c38a-49d8-bb9a-95d9b3c6258c"
       (reference "R33") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1895,7 +1809,7 @@
       (reference "U3") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061c555c0/457ced6b-c526-484b-8527-872cff7f6796"
-      (reference "U4") (unit 1) (value "2108") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U4") (unit 1) (value "2108") (footprint "Package_TO_SOT_SMD:SOT-89-3_Handsoldering")
     )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/78ff6519-41f4-4b2c-9518-f9ed158fb1f3"
       (reference "U17") (unit 1) (value "PCF8575") (footprint "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm")

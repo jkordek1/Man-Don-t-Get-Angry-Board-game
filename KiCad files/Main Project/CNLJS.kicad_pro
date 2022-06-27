@@ -121,8 +121,13 @@
       },
       "track_widths": [
         0.0,
+        0.2,
+        0.254,
         0.3,
-        0.762
+        0.3556,
+        0.762,
+        1.016,
+        1.27
       ],
       "via_dimensions": [
         {
@@ -375,7 +380,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "+BATT": "rgb(194, 194, 0)",
+      "VBUS": "rgb(255, 255, 194)",
+      "VCC": "rgb(0, 0, 194)",
+      "VDD": "rgb(0, 255, 0)"
+    }
   },
   "pcbnew": {
     "last_paths": {

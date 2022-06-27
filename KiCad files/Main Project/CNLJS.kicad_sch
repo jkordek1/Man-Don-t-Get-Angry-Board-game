@@ -203,7 +203,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n\n- ako je spojen VBUS, onda ne dovoditi VCC na regulator napona\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu"
+  (text "TODO:\n\n- ako je spojen VBUS, onda ne dovoditi VCC na regulator napona\n- power sklopka koja može prekinuti 1A\n- rupe\n- ispraviti dvije pozicije koje su preblizu\n- kockica tipkalo"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)

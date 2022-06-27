@@ -1056,6 +1056,11 @@
     (uuid f6a3288e-9575-42bb-af05-a920d59aded8)
   )
 
+  (label "CH_OUT" (at 152.4 73.025 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 61b3bdba-a287-41d7-b6a8-46869db8373d)
+  )
+
   (symbol (lib_id "power:GND") (at 130.81 116.205 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a0cabd)

@@ -1425,7 +1425,7 @@
       (reference "FIN16") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00000000-0000-0000-0000-00006165e463/00000000-0000-0000-0000-00006167dfca"
-      (reference "J1") (unit 1) (value "USBasp") (footprint "CNLJS:USBasp")
+      (reference "J1") (unit 1) (value "USBasp") (footprint "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061c3bc04/00000000-0000-0000-0000-000061c3f0e6"
       (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "CNLJS:USB_C_Receptacle_HRO_TYPE-C-31-M-12")

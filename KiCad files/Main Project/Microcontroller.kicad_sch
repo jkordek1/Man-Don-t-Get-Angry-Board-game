@@ -1154,7 +1154,7 @@
     (uuid 00000000-0000-0000-0000-00006167dfca)
     (property "Reference" "J1" (id 0) (at 203.835 55.88 0))
     (property "Value" "USBasp" (id 1) (at 203.835 66.04 0))
-    (property "Footprint" "CNLJS:USBasp" (id 2) (at 202.565 60.96 0)
+    (property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical" (id 2) (at 202.565 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 202.565 60.96 0)

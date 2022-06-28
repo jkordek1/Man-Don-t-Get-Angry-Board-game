@@ -1,4 +1,4 @@
-20229309951186974
+20230966373987114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2393,6 +2393,13 @@ inductor taiyo-yuden nr smd
 0
 2
 2
+CNLJS
+Padovi_sklopke
+
+
+0
+1
+1
 CNLJS
 TP_11mm_kocka
 

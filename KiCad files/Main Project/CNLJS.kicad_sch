@@ -1442,6 +1442,12 @@
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/db6a3b33-c3ea-4b86-a6c5-448c1ed994c4"
       (reference "J20") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical")
     )
+    (path "/00000000-0000-0000-0000-00006165c380/5f60f9b5-79d4-4b0b-94d5-da6e038dc7ae"
+      (reference "J21") (unit 1) (value "Conn_01x01") (footprint "CNLJS:Padovi_sklopke")
+    )
+    (path "/00000000-0000-0000-0000-00006165c380/48b04f91-75de-4f52-8053-90f93b92c29f"
+      (reference "J22") (unit 1) (value "Conn_01x01") (footprint "CNLJS:Padovi_sklopke")
+    )
     (path "/00000000-0000-0000-0000-000061c555c0/2316558d-d6e5-4f42-a145-5ce18e9c2401"
       (reference "L1") (unit 1) (value "47uH") (footprint "CNLJS:L_Taiyo-Yuden_NR-50xx")
     )
@@ -1762,9 +1768,6 @@
     )
     (path "/00000000-0000-0000-0000-00006165e463/00000000-0000-0000-0000-000061685c11"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
-    )
-    (path "/00000000-0000-0000-0000-00006165c380/440f2114-55a2-4abe-a09e-03da83160e3e"
-      (reference "SW2") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/2265374b-fa4b-4706-be14-3713c109cf92"
       (reference "TP_LED_1") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")

@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -400,7 +400,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 16,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,

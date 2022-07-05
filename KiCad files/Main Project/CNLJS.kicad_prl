@@ -62,7 +62,11 @@
       35,
       36
     ],
+<<<<<<< HEAD
     "visible_layers": "ffc3fff_fffffffe",
+=======
+    "visible_layers": "0001055_80000000",
+>>>>>>> parent of 5ac4305 (update)
     "zone_display_mode": 0
   },
   "meta": {

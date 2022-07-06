@@ -1307,6 +1307,9 @@
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/2ba41624-20cc-41a6-9c0d-1249b94007aa"
       (reference "#PWR0269") (unit 1) (value "VDD") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006165e463/3f47dd07-b989-48ac-a251-ac2f215e6bbe"
+      (reference "#PWR0270") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f9d26e2a-d901-40f9-932a-f51e34dd8264/09f18de3-3583-4c3e-bbbf-26e9afd221eb"
       (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
     )
@@ -1480,6 +1483,9 @@
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/d2a23027-66f0-49d8-acae-951793fef563/519fd43e-b39b-41dd-a987-6dc01ebe5759"
       (reference "LED9") (unit 1) (value "WS2812-4020_single") (footprint "FieldBoard_footprint:WS2812-mini")
+    )
+    (path "/00000000-0000-0000-0000-00006165e463/b3d53d5f-c9d0-4a91-bf8e-455493020d5e"
+      (reference "LS1") (unit 1) (value "Buzzer") (footprint "CNLJS:KLJ-1102")
     )
     (path "/00000000-0000-0000-0000-00006166ecfb/9ad8c3f9-129f-4b19-a2d2-c14ac61cd1a0/4a919683-e4bc-4ba8-89b4-06e21f031dea"
       (reference "POS17") (unit 1) (value "WS2812-4020_dual") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")

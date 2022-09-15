@@ -394,7 +394,7 @@
       "idf": "",
       "netlist": "CNLJS.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CNLJS.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

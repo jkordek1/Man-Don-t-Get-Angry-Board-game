@@ -203,7 +203,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n\n- ako je spojen VBUS, onda ne dovoditi VCC na regulator napona\n- power sklopka koja može prekinuti 1A\n- rupe za montažu\n- ispraviti dvije pozicije koje su preblizu\n- kockica tipkalo\n- LEDice za punjenje baterije\n- buzzer"
+  (text "TODO:\n- touchpad LEDice\n- ako je spojen VBUS, onda ne dovoditi VCC na regulator napona\n- power sklopka koja može prekinuti 1A\n- rupe za montažu\n- ispraviti dvije pozicije koje su preblizu\n- kockica tipkalo\n- LEDice za punjenje baterije\n- buzzer\n- popraviti ledicu u kutu\n- provjeriti shemu\n- podebljati vodiče\n- mounting holes\n- isprintati na papir i provjeriti footprinte"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)
@@ -676,9 +676,6 @@
     )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a4e6bb"
       (reference "#PWR059") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a367a5"
-      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a0cabd"
       (reference "#PWR061") (unit 1) (value "GND") (footprint "")
@@ -1717,12 +1714,6 @@
     )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a5a90c"
       (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a34354"
-      (reference "R10") (unit 1) (value "270k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a350b2"
-      (reference "R11") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006165c380/00000000-0000-0000-0000-000061a549b1"
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")

@@ -1,0 +1,104 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 9cf5566e-ca93-40f6-8780-ff913a15193a)
+
+  (paper "A4")
+
+  (title_block
+    (title "BoardGame")
+    (date "2022-09-19")
+    (rev "1")
+    (company "TVZ")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 48.26 62.23) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
+    (fill (color 255 229 191 1.0000))
+    (uuid 2d8711c9-a608-4de3-afe4-a2d343691caa)
+    (property "Sheet name" "USB" (id 0) (at 48.26 67.31 0)
+      (effects (font (size 2.54 2.54)) (justify left bottom))
+    )
+    (property "Sheet file" "USB.kicad_sch" (id 1) (at 48.26 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
+  (sheet (at 48.26 92.71) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
+    (fill (color 255 229 191 1.0000))
+    (uuid 8258922a-20ba-4c61-afb7-3f3a8be89b95)
+    (property "Sheet name" "USB-UART" (id 0) (at 48.26 97.79 0)
+      (effects (font (size 2.54 2.54)) (justify left bottom))
+    )
+    (property "Sheet file" "USB-UART.kicad_sch" (id 1) (at 48.26 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa" (page "2"))
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/439ba63d-6b1a-4e03-a96f-11f3c2ac499c"
+      (reference "#PWR0101") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/49d8a562-90d3-411b-8e57-b5ed751d4e1a"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/b26fa7b4-8095-49ac-be93-0e2c8a779ae3"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/ef32e474-8397-4751-a696-f02c5efd2f3b"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/564aaa13-737e-483b-bcf2-40e33d8b6bdb"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/f1d465f1-b123-48ec-9e8c-378bead71f28"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/3b9388ed-61de-4655-8083-45f1f43133c7"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/e1dadd07-9985-41d4-9e90-f0a81f33168d"
+      (reference "#PWR0108") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/384f00d1-e5a3-4b70-bb5d-c345ce9ad027"
+      (reference "C?") (unit 1) (value "10n") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/59d3f3e9-ae46-4a86-98a7-27822b40721b"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/6b5e508e-3336-4081-9f41-778fb75f69a3"
+      (reference "C?") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/7f4e94ec-fb8e-438a-adb6-09b8f9065be4"
+      (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/7462f536-5a4b-4a24-a932-0b7e043be886"
+      (reference "R?") (unit 1) (value "5k1") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/9a26448b-8c96-4086-89d2-b263bd53d4f9"
+      (reference "R?") (unit 1) (value "1M") (footprint "")
+    )
+    (path "/2d8711c9-a608-4de3-afe4-a2d343691caa/bdbfe12d-c46f-4f31-856a-c9f515fe8e05"
+      (reference "R?") (unit 1) (value "5k1") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/e5d86f80-e72b-4123-ac6a-5684e751777c"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/f5e2e716-507c-4a40-a686-af54346b8bb2"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/8258922a-20ba-4c61-afb7-3f3a8be89b95/1454bed7-45f8-481e-a0fb-5696749e64d5"
+      (reference "U?") (unit 1) (value "CH340C") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+    )
+  )
+)

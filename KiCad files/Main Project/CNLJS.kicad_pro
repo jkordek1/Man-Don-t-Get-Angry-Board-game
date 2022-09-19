@@ -395,12 +395,12 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "CNLJS.cad",
       "idf": "",
       "netlist": "CNLJS.net",
       "specctra_dsn": "",
       "step": "CNLJS.step",
-      "vrml": ""
+      "vrml": "CNLJS.wrl"
     },
     "page_layout_descr_file": ""
   },

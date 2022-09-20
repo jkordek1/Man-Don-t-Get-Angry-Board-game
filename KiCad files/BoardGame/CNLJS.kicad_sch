@@ -244,7 +244,7 @@
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid 9a4e64a8-d776-4373-b9ee-c00e1fa7a5f2)
   )
-  (text "ČOVJEČE NE LJUTI SE (CNLJS)" (at 51.435 27.94 0)
+  (text "BoardGame\n" (at 111.76 25.4 0)
     (effects (font (size 8.001 8.001) (thickness 1.6002) bold) (justify left bottom))
     (uuid a24ddb4f-c217-42ca-b6cb-d12da84fb2b9)
   )

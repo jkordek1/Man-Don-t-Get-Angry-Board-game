@@ -320,6 +320,18 @@
     [
       "9f66d68b-38d2-4517-8629-387431399ae9",
       ""
+    ],
+    [
+      "ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1",
+      "USB"
+    ],
+    [
+      "137cdba1-cde3-4c49-b42e-e13f2be356c7",
+      "Power"
+    ],
+    [
+      "defa6cf4-007a-48e8-ac65-029b900cd1cd",
+      "IO Expander"
     ]
   ],
   "text_variables": {}

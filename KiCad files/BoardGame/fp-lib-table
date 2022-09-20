@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name CNLJS)(type KiCad)(uri ${KIPRJMOD}/CNLJS.pretty)(options "")(descr ""))
-)

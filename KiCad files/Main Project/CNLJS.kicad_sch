@@ -203,7 +203,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03c7f780-fc1b-487a-b30d-567d6c09fdc8)
   )
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- touchpad LEDice\n- mjeriti napon baterije i napraviti indikator (iskoristiti neopixele kao indikator?)\n- LEDice za punjenje baterije\n- da li treba LDR?\n- maknuti onaj dio gdje se vrši odabir naponskih razina, to nije dobro\n- power sklopka koja može prekinuti 1A\n- rupe za montažu\n- ispraviti dvije pozicije koje su preblizu\n- kockica touchpad\n- buzzer\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- zamijeniti regulator napona i maknuti onaj dio gdje se vrši odabir naponskih razina, to nije dobro\n- mjeriti napon baterije i napraviti indikator (iskoristiti neopixele kao indikator?)\n- LEDice za punjenje baterije\n- da li treba LDR?\n- power sklopka koja može prekinuti 1A\n- rupe za montažu\n- ispraviti dvije pozicije koje su preblizu\n- kockica touchpad\n- buzzer\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 18.415 186.055 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1072599c-2bac-423a-98ee-1f31292711bb)

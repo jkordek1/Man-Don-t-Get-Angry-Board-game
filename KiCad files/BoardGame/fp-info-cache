@@ -1,4 +1,4 @@
-20344892481977818
+20353210461051239
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52101,7 +52101,42 @@ Through hole socket strip THT 2x03 1.27mm double row
 6
 6
 Footprints
+CSTCE16M0V53-R0
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
+Footprints
 Inductor_4mm(5x5mm pads)
+
+
+0
+2
+2
+Footprints
+KLJ-1102
+
+
+0
+2
+2
+Footprints
+PinHeader_1x01
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+Footprints
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+Footprints
+battery_906909_6000mah
 
 
 0

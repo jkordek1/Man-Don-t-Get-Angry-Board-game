@@ -434,6 +434,10 @@
     [
       "bfec7ff5-12b5-4af9-9131-b19e09596ace",
       "Boost Converter"
+    ],
+    [
+      "4e78659c-21b0-4088-8876-cb944b9d811b",
+      "Neopixel"
     ]
   ],
   "text_variables": {}

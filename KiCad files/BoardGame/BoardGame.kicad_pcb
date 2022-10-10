@@ -4074,7 +4074,7 @@
 
   (footprint "Footprints:battery_906909_6000mah" (layer "F.Cu")
     (tedit 0) (tstamp b175dac9-7683-4d5e-91f9-17cbe14d3998)
-    (at 345.5335 58)
+    (at 343 55)
     (property "Sheetfile" "Battery charger.kicad_sch")
     (property "Sheetname" "Battery charger")
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f39e5938-1d55-4ada-be42-3da5804b2a99")

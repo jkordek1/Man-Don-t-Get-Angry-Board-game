@@ -1,0 +1,26 @@
+import sys
+import os
+import pcbnew
+from pcbnew import wxPoint, wxPointMM
+
+desktop = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop')
+fname = desktop + '\\SkaliranePozicije.txt'
+
+board = pcbnew.GetBoard()
+sheet = 1000
+i = 0
+f = open(fname, 'r')
+for text in f:
+    position_string = text.split(', ')
+    position_string[1].replace('\n', ' ')
+
+    i = i + 1
+    tekst = f"D{sheet+i}"
+    x = float(position_string[0])
+    y = float(position_string[1])
+
+    var = board.FindFootprintByReference(tekst)
+    assert (var)
+    var.SetPosition(wxPointMM(x, y))
+    
+pcbnew.Refresh()

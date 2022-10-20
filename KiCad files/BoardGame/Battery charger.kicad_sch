@@ -1723,7 +1723,7 @@
     (property "Value" "Battery_Cell" (id 1) (at 204.9272 81.153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprints:battery_906909_6000mah" (id 2) (at 201.93 79.756 90)
+    (property "Footprint" "Footprints:battery_103565_3000mah" (id 2) (at 201.93 79.756 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 201.93 79.756 90)

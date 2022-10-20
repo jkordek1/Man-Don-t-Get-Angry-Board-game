@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "Touchpad.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Touchpad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

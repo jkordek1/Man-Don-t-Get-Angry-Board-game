@@ -227,7 +227,7 @@
   )
 
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- mjeriti napon baterije i napraviti indikator (iskoristiti neopixele kao indikator?)\n- LEDice za punjenje baterije\n- da li treba LDR?\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- testirati da li STAT2 pin može biti očitan na mcu (high ili low)\n- mjeriti napon baterije i napraviti indikator (iskoristiti neopixele kao indikator?)\n- LEDice za punjenje baterije\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
@@ -1429,7 +1429,7 @@
       (reference "#PWR01168") (unit 1) (value "GND") (footprint "")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f39e5938-1d55-4ada-be42-3da5804b2a99"
-      (reference "BT301") (unit 1) (value "Battery_Cell") (footprint "Footprints:battery_906909_6000mah")
+      (reference "BT301") (unit 1) (value "Battery_Cell") (footprint "Footprints:battery_103565_3000mah")
     )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/510a8aa0-9853-4d59-92da-cbd2cd9f9f7a"
       (reference "C201") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1879,7 +1879,7 @@
       (reference "J404") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Footprints:2x03_P1.27mm_conn")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/de15bc89-2244-45da-ba06-6a1603c41aa5"
-      (reference "J501") (unit 1) (value "USBasp") (footprint "Footprints:2x03_P2.54mm")
+      (reference "J501") (unit 1) (value "USBasp") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/d3f8e25f-4120-4ba2-9b66-04af3b9d8b2a"
       (reference "L501") (unit 1) (value "10u") (footprint "Inductor_SMD:L_1206_3216Metric")

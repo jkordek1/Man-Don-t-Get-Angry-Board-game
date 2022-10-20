@@ -1561,7 +1561,7 @@
     (uuid de15bc89-2244-45da-ba06-6a1603c41aa5)
     (property "Reference" "J501" (id 0) (at 208.28 58.42 0))
     (property "Value" "USBasp" (id 1) (at 208.28 68.58 0))
-    (property "Footprint" "Footprints:2x03_P2.54mm" (id 2) (at 207.01 63.5 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD" (id 2) (at 207.01 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 207.01 63.5 0)

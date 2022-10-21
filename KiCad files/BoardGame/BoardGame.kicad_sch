@@ -227,7 +227,7 @@
   )
 
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- testirati da li STAT2 pin može biti očitan na mcu (high ili low)\n- mjeriti napon baterije i napraviti indikator (iskoristiti neopixele kao indikator?)\n- LEDice za punjenje baterije\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- jedan neopixel koji je blizu punjača\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
@@ -812,9 +812,6 @@
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/914d6051-e67b-4a52-926a-714614c7380a"
       (reference "#PWR0309") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f9683d8e-8401-47e9-833d-ea3e456383bd"
-      (reference "#PWR0310") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/299feb74-8e1d-42d5-a543-e61b0a810dd3"
       (reference "#PWR0311") (unit 1) (value "GND") (footprint "")
@@ -1428,6 +1425,21 @@
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/6eb5512c-c657-42ed-ae32-ca0dc970cb85"
       (reference "#PWR01168") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/94f23a45-f80c-405a-953b-924a6f195d77"
+      (reference "#PWR01169") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/ef8faf14-3c3f-4433-8ac7-7bb8c5995b5b"
+      (reference "#PWR01170") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/4fea6a02-2d17-430a-8782-08f7d6a7a885"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/6ef946b1-68a2-4826-b9df-2ec18dd67d90"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/b562b1ed-5661-41bb-aeb1-1c7c7d6b3a6d"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f39e5938-1d55-4ada-be42-3da5804b2a99"
       (reference "BT301") (unit 1) (value "Battery_Cell") (footprint "Footprints:battery_103565_3000mah")
     )
@@ -1502,15 +1514,6 @@
     )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/3aa729ef-6ad2-4b55-b58e-417f6444f1d3"
       (reference "C1009") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f9b67d9d-4294-475a-84cb-9fe09914e36a"
-      (reference "D301") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/7198921d-6f6d-40c9-b786-404a25255e97"
-      (reference "D302") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/90aefc8a-c804-47eb-8919-82ead1a53bc0"
-      (reference "D303") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/bfec7ff5-12b5-4af9-9131-b19e09596ace/8c1809b1-1a92-48e2-b214-386a6cd2fc28"
       (reference "D601") (unit 1) (value "SS12") (footprint "Diode_SMD:D_SMA")
@@ -1830,6 +1833,9 @@
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/662415ee-8d57-4894-89c8-228f50fee6dd"
       (reference "D1105") (unit 1) (value "WS2812B") (footprint "Footprints:WS2812-mini")
     )
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/13ee671d-2cc5-4735-b962-c0e37fa159a1"
+      (reference "D1106") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+    )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/c89382c0-bfaa-4808-a62d-d55c9ebe819b"
       (reference "FB201") (unit 1) (value "100 @ 100MHz") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1911,23 +1917,14 @@
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/a0e05594-0dcf-4030-8d5a-30d1a436e280"
       (reference "R303") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/63394e3b-e071-444b-936e-6b25139d4705"
-      (reference "R304") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/b603c655-745d-46e2-84d9-900527e7abda"
       (reference "R305") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/55587f14-1876-4a57-bb3d-fab89b0180b1"
-      (reference "R306") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/6d4ac1f5-54e1-49e0-b033-11329cfbf538"
       (reference "R307") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/4157316d-c41c-4017-8208-cfb93e74354a"
       (reference "R308") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/890c2240-239b-4afc-b060-9b9ca9249f7e"
-      (reference "R309") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/867a8dd9-b8e5-4c0d-9bd1-b51e3ff30de4"
       (reference "R310") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1950,17 +1947,29 @@
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/0fe75a84-54e2-42ce-a7fe-484a43b2cbe5"
       (reference "R1001") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/fb7af6d0-c990-4b39-947e-e8f317bebc38"
+      (reference "R1002") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/75567645-26bd-43be-84de-f40c2e8d6559"
       (reference "R1003") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/11fa5df4-71ef-4ed9-8359-d3be4a6f88a0"
+      (reference "R1004") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/528ae980-7cc9-46ef-8dd6-ee722a68e949"
       (reference "R1005") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/fb7af6d0-c990-4b39-947e-e8f317bebc38"
-      (reference "R1085") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/73df696c-05b6-4362-9683-d99e38498926"
+      (reference "R1006") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/4e78659c-21b0-4088-8876-cb944b9d811b/11fa5df4-71ef-4ed9-8359-d3be4a6f88a0"
-      (reference "R1086") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/3c7cc35d-1ba6-4995-8d5a-d8587075b085"
+      (reference "R1007") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/0450dcae-979c-4792-b7af-708781e9955d"
+      (reference "R1008") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/32a3e460-cc61-4ff6-b885-d8b5f02c18af"
+      (reference "R1009") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/065793fe-edb2-4416-bdf1-8457eba820c6"
       (reference "SW501") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")

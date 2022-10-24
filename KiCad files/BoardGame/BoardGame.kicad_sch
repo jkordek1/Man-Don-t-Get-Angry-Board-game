@@ -756,6 +756,15 @@
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/d1df2e23-152c-4762-8320-7791465c818f"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
     )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/6ef946b1-68a2-4826-b9df-2ec18dd67d90"
+      (reference "#PWR0164") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/4fea6a02-2d17-430a-8782-08f7d6a7a885"
+      (reference "#PWR0165") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/b562b1ed-5661-41bb-aeb1-1c7c7d6b3a6d"
+      (reference "#PWR0166") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/5e2b5f85-9000-493f-92f5-49f06d324b8b"
       (reference "#PWR0201") (unit 1) (value "VBUS") (footprint "")
     )
@@ -1430,15 +1439,6 @@
     )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/ef8faf14-3c3f-4433-8ac7-7bb8c5995b5b"
       (reference "#PWR01170") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/4fea6a02-2d17-430a-8782-08f7d6a7a885"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/6ef946b1-68a2-4826-b9df-2ec18dd67d90"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/b562b1ed-5661-41bb-aeb1-1c7c7d6b3a6d"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/f39e5938-1d55-4ada-be42-3da5804b2a99"
       (reference "BT301") (unit 1) (value "Battery_Cell") (footprint "Footprints:battery_103565_3000mah")

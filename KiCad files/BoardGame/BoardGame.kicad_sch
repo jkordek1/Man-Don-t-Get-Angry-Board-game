@@ -227,7 +227,7 @@
   )
 
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- jedan neopixel koji je blizu punjača\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- jedan neopixel koji je blizu punjača\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
@@ -564,9 +564,6 @@
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/3570da0d-d876-432f-b043-7b60c23cbd95"
       (reference "#FLG0501") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/731f02f6-903a-4cf3-b60f-6f47d27141ce"
-      (reference "#FLG0502") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/734b1c6c-4834-4550-ac92-289626629bb9"
       (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
     )
@@ -756,15 +753,6 @@
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/d1df2e23-152c-4762-8320-7791465c818f"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
     )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/6ef946b1-68a2-4826-b9df-2ec18dd67d90"
-      (reference "#PWR0164") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/4fea6a02-2d17-430a-8782-08f7d6a7a885"
-      (reference "#PWR0165") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/b562b1ed-5661-41bb-aeb1-1c7c7d6b3a6d"
-      (reference "#PWR0166") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/5e2b5f85-9000-493f-92f5-49f06d324b8b"
       (reference "#PWR0201") (unit 1) (value "VBUS") (footprint "")
     )
@@ -888,23 +876,11 @@
     (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/6cf85e9a-5566-4cdd-967a-8862aaad217f"
       (reference "#PWR0418") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/7c76a589-34d4-48a7-8f04-dc1c3247db60"
-      (reference "#PWR0501") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/7cdf4a90-e8f9-47b4-9c46-5698e4fd1fbd"
       (reference "#PWR0502") (unit 1) (value "+5V") (footprint "")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/d7aeaa80-0c45-4617-85d4-ca98cc2c9b70"
       (reference "#PWR0503") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/b17b5ae4-6a2b-4bbc-b6b7-3906ec89603d"
-      (reference "#PWR0504") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/2543f27f-3b77-4a14-91e7-209236762b3d"
-      (reference "#PWR0505") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/d34e4f88-372a-4f42-9a4b-8203abd01ad8"
-      (reference "#PWR0506") (unit 1) (value "GND") (footprint "")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/1e528d40-7b6a-4327-ad03-b9ae3d3ed2ee"
       (reference "#PWR0507") (unit 1) (value "GND") (footprint "")
@@ -1473,12 +1449,6 @@
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/421b4c9c-ea5f-4194-99d5-e18dc37e1738"
       (reference "C501") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/5f66fb1d-6d17-43b1-b749-59a9e3970708"
-      (reference "C502") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/dc037b4f-66ef-40cf-9af8-05c771cafd36"
-      (reference "C503") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/b9ee4bd4-f0be-4530-8a68-973b7c28f1c5"
       (reference "C504") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1887,9 +1857,6 @@
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/de15bc89-2244-45da-ba06-6a1603c41aa5"
       (reference "J501") (unit 1) (value "USBasp") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD")
     )
-    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/d3f8e25f-4120-4ba2-9b66-04af3b9d8b2a"
-      (reference "L501") (unit 1) (value "10u") (footprint "Inductor_SMD:L_1206_3216Metric")
-    )
     (path "/bfec7ff5-12b5-4af9-9131-b19e09596ace/a3653020-1727-4f10-819a-83fb9d6b7edc"
       (reference "L601") (unit 1) (value "4R7") (footprint "Footprints:Inductor_4mm(5x5mm pads)")
     )
@@ -1961,15 +1928,6 @@
     )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/73df696c-05b6-4362-9683-d99e38498926"
       (reference "R1006") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/3c7cc35d-1ba6-4995-8d5a-d8587075b085"
-      (reference "R1007") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/0450dcae-979c-4792-b7af-708781e9955d"
-      (reference "R1008") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/32a3e460-cc61-4ff6-b885-d8b5f02c18af"
-      (reference "R1009") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/065793fe-edb2-4416-bdf1-8457eba820c6"
       (reference "SW501") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")

@@ -1,4 +1,4 @@
-20491780947629371
+20493447796928230
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52156,6 +52156,13 @@ KLJ-1102
 0
 2
 2
+Footprints
+LED_WS2812B_edited
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
 Footprints
 PinHeader_1x01
 Through hole straight pin header, 1x01, 2.54mm pitch, single row

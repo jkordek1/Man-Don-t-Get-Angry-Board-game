@@ -227,7 +227,7 @@
   )
 
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- jedan neopixel koji je blizu punjača\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- power sklopka koja može prekinuti 1A\n- kockica touchpad\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
@@ -1804,7 +1804,7 @@
       (reference "D1105") (unit 1) (value "WS2812B") (footprint "Footprints:WS2812-mini")
     )
     (path "/4e78659c-21b0-4088-8876-cb944b9d811b/13ee671d-2cc5-4735-b962-c0e37fa159a1"
-      (reference "D1106") (unit 1) (value "WS2812B") (footprint "Footprints:LED_WS2812B_edited")
+      (reference "D1106") (unit 1) (value "WS2812B") (footprint "Footprints:WS2812-mini")
     )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/c89382c0-bfaa-4808-a62d-d55c9ebe819b"
       (reference "FB201") (unit 1) (value "100 @ 100MHz") (footprint "Resistor_SMD:R_0603_1608Metric")

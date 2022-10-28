@@ -1367,7 +1367,7 @@
     (property "Value" "WS2812B" (id 1) (at 338.455 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Footprints:LED_WS2812B_edited" (id 2) (at 334.01 222.25 0)
+    (property "Footprint" "Footprints:WS2812-mini" (id 2) (at 334.01 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (id 3) (at 335.28 224.155 0)

@@ -227,7 +227,7 @@
   )
 
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- tunel za zvučnik\n- spojiti kockicu (dodati još jedan ulaz na io expander)\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- power sklopka koja može prekinuti 2A (rupa na kućištu)\n- provjeriti dimenzije usb-c konektora kabela, da li je rupa na kućištu dovoljno velika\n- izmjenjiva 18650 baterija\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- tunel za zvučnik\n- spojiti kockicu (dodati još jedan ulaz na io expander)\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- power sklopka koja može prekinuti 2A (rupa na kućištu)\n- provjeriti dimenzije usb-c konektora kabela, da li je rupa na kućištu dovoljno velika\n- power sklopka interrupt, kondenzator mcu\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)

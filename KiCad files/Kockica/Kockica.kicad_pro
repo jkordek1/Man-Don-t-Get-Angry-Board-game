@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Kockica.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

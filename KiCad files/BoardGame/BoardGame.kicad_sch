@@ -876,6 +876,12 @@
     (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/6cf85e9a-5566-4cdd-967a-8862aaad217f"
       (reference "#PWR0418") (unit 1) (value "GND") (footprint "")
     )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/5176c970-8fec-4fa3-a041-b563d9f16b4c"
+      (reference "#PWR0419") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/eb6bcd66-3c68-4fc0-b3cc-573cd62c8045"
+      (reference "#PWR0420") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/7cdf4a90-e8f9-47b4-9c46-5698e4fd1fbd"
       (reference "#PWR0502") (unit 1) (value "+5V") (footprint "")
     )
@@ -1853,6 +1859,18 @@
     )
     (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/9f5c23a6-d03c-4116-9f3c-86fc68e08444"
       (reference "J404") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Footprints:2x03_P1.27mm_conn")
+    )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/582ae961-c54a-435f-8fcd-4de0f6619a0a"
+      (reference "J405") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
+    )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/a1919535-1e1c-4801-bfca-b74a06df2251"
+      (reference "J406") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
+    )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/271d12e8-f33e-4c35-af42-cea1a14614f6"
+      (reference "J407") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
+    )
+    (path "/defa6cf4-007a-48e8-ac65-029b900cd1cd/e21935c4-4afb-42fb-9a32-a679263e76f4"
+      (reference "J408") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/de15bc89-2244-45da-ba06-6a1603c41aa5"
       (reference "J501") (unit 1) (value "USBasp") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD")

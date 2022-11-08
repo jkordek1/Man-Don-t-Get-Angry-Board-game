@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x02_Male,PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left,56.2,-44.8,0.0,bottom
+J2,Conn_01x02_Male,PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left,44.8,-56.2,90.0,bottom
+J3,Conn_01x02_Male,PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left,56.2,-67.6,180.0,bottom
+J4,Conn_01x02_Male,PinHeader_1x02_P1.27mm_Vertical_SMD_Pin1Left,67.6,-56.2,-90.0,bottom

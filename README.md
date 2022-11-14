@@ -6,6 +6,7 @@
 - [x] Enclosure design
 - [x] 3D CAD assembly and renders
 - [ ] Production
+- [ ] Programming
 
 ## About
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mens_Erger_Je_Niet_Bordspel_1.jpg" width="400"/>
@@ -15,7 +16,7 @@ The name derives from the fact that a peg is sent back to the "out" field when a
 
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
-## Idea
+## 
 Idea of the project is to create an electronic version of the game to help promoting STEM education
 
 

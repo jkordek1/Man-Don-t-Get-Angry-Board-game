@@ -22,13 +22,13 @@ Idea of the project is to create an electronic version of the game to help promo
 
 ## Main features
 
-Main features of the projects are:
-- based on popular ATmega328p microcontroller
+Main features of the projects:
+- based on popular ATmega328p microcontroller used on Arduino boards
 - WS2812B-V5 addressable LEDs with no external components needed
-- touchpads for game controls
+- touchpads for controling the game
 - Piezo buzzer for audio queues
 - 3000mAh rechargable Li-Po battery
-- USB-C connector for charging and programming
+- USB-C connector for charging and programming the microcontroller
 
 ## 3D renders
 <img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>

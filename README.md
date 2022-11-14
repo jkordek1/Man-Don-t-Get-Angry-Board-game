@@ -8,7 +8,7 @@
 - [ ] Production
 
 ## About
-<img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mens_Erger_Je_Niet_Bordspel_1.jpg" width="600"/>
 
 Mensch ärgere Dich nicht (English: Man, Don't Get Angry) is a German board game developed by Josef Friedrich Schmidt in 1907/1908. The name derives from the fact that a peg is sent back to the "out" field when another peg lands on it, similar to the later game Sorry!.
 
@@ -25,3 +25,5 @@ Main features of the projects are:
 - 3000mAh rechargable Li-Po battery
 - USB-C connector for charging and programming
 
+## 3D renders
+<img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>

@@ -19,7 +19,6 @@ More information about the game can be found at the [wiki page](https://en.wikip
 ## Project idea
 Idea of the project is to create an electronic version of the game to help promoting STEM education (and to have some fun of course).
 
-
 ## Main features
 
 Main features of the projects:

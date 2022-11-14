@@ -17,7 +17,7 @@ The name derives from the fact that a peg is sent back to the "out" field when a
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
 ## Project idea
-Idea of the project is to create an electronic version of the game to help promoting STEM education.
+Idea of the project is to create an electronic version of the game to help promoting STEM education (and to have some fun of course).
 
 
 ## Main features

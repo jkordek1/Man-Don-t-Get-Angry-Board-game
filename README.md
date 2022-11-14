@@ -14,8 +14,11 @@ Mensch ärgere Dich nicht (English: Man, Don't Get Angry) is a German board game
 
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
+## Idea
+Idea of the project is to create an electronic version of the game to help promoting STEM education
+
+
 ## Main features
-This project is about electronic version of the game.
 
 Main features of the projects are:
 - based on popular ATmega328p microcontroller

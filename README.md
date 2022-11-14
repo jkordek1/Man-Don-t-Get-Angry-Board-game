@@ -1,6 +1,6 @@
 ## WORK IN PROGRESS
 
-<img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png"  width="600" height="300">
+![](https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png | width=100)
 
 The schematic is about 80% done.
 

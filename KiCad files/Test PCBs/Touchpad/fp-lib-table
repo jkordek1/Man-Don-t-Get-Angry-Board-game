@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Touchpad)(type KiCad)(uri ${KIPRJMOD}/Touchpad.pretty)(options "")(descr ""))
-)

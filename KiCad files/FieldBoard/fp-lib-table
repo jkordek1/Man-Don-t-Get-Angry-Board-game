@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "FieldBoard_footprint")(type "KiCad")(uri "${KIPRJMOD}/FieldBoard_footprint.pretty")(options "")(descr ""))
-)

@@ -1,0 +1,14 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0-50 pF,C_0603_1608Metric,202.75,-65.2,-135.0,bottom
+C2,100n,C_0603_1608Metric,206.75,-69.2,45.0,bottom
+C3,0-50 pF,C_0603_1608Metric,188.654045,-66.775,180.0,bottom
+C4,100n,C_0603_1608Metric,188.654045,-72.775,180.0,bottom
+C5,0-50 pF,C_0603_1608Metric,213.9,-65.2,135.0,bottom
+C6,100n,C_0603_1608Metric,209.9,-69.2,135.0,bottom
+J1,Conn_02x03_Counter_Clockwise,PinHeader_2x03_P1.27mm_Vertical_SMD,208.3,-76.15,0.0,bottom
+TP1,TestPoint,TP_11mm_kvacica,198.7,-71.5,0.0,top
+TP2,TestPoint,TP_11mm_strelicaLijevo,180.05,-71.49393,0.0,top
+TP3,TestPoint,TP_11mm_strelicaDesno,217.35,-71.54393,0.0,top
+U1,TTP223-BA6,SOT-23-6,204.75,-67.2,-45.0,bottom
+U2,TTP223-BA6,SOT-23-6,188.654045,-69.775,-90.0,bottom
+U3,TTP223-BA6,SOT-23-6,211.9,-67.2,-135.0,bottom

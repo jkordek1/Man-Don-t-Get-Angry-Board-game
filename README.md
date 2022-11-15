@@ -32,3 +32,14 @@ Main features of the projects:
 
 ## 3D renders
 <img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
+
+## PCBs
+There are 3 different PCBs:
+1. BoardGame - main 150x150mm PCB that contains LEDs and most of the electronic components (1 needed)
+2. Dice - small PCB used as a touchpad (1 needed)
+3. Touchpad - PCB with 3 touchpads used as controls for the game (4 needed)
+
+## Enclosure
+There are few 3D models files needed for enclosure:
+1. Case - main part of the enclosure
+2. FieldBoard - Upper part of the enclosure printed with black and white filaments

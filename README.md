@@ -36,15 +36,15 @@ Main features of the projects:
 ## PCBs
 There are 3 different PCBs:
 
-BoardGame - main 150x150mm PCB that contains LEDs and most of the electronic components (1 needed)
+**BoardGame** - main 150x150mm PCB that contains LEDs and most of the electronic components (1 needed)
 
 <img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/BoardGame-front%20and%20back.png" width="1000"/>
 
-Dice - small PCB used as a touchpad (1 needed)
+**Dice** - small PCB used as a touchpad (1 needed)
 
 <img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/Dice-front%20and%20back.png"  width="1000"/>
 
-Touchpad - PCB with 3 touchpads used as controls for the game (4 needed)
+**Touchpad** - PCB with 3 touchpads used as controls for the game (4 needed)
 
 
 ## Enclosure

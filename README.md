@@ -35,7 +35,7 @@ Main features of the projects:
 
 ## PCBs
 There are 3 different PCBs:
-1. BoardGame - main 150x150mm PCB which contains LEDs and most of the electronic components (1 needed)
+1. BoardGame - main 150x150mm PCB that contains LEDs and most of the electronic components (1 needed)
 2. Dice - small PCB used as a touchpad (1 needed)
 3. Touchpad - PCB with 3 touchpads used as controls for the game (4 needed)
 

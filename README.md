@@ -46,6 +46,8 @@ There are 3 different PCBs:
 
 **Touchpad** - PCB with 3 touchpads used as controls for the game (4 needed)
 
+<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/Touchpad-front%20and%20back.png"  width="1000"/>
+
 
 ## Enclosure
 There are few 3D models files needed for enclosure:

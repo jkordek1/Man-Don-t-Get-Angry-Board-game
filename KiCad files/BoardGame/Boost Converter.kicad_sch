@@ -569,11 +569,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9e5613fb-1b39-4973-8a67-2dd2912108af)
   )
-  (text "For best performance of the MT3608, the following\nguidelines must be strictly followed:\n\n- Input and Output capacitors should be placed\nclose to the IC and connected to ground plane\nto reduce noise coupling\n\n- The GND should be connected to a strong\nground plane for heat sinking and noise\nprotection\n\n- Keep the main current traces as possible as\nshort and wide\n\n- SW node of DC-DC converter is with high\nfrequency voltage swing. It should be kept at a\nsmall area\n\n- Place the feedback components as close as\npossible to the IC and keep away from the\nnoisy devices"
-    (at 26.67 160.655 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9ff9c7eb-ed31-40c6-8ded-0c317c16e207)
-  )
   (text "The recommended values of inductor are 4.7 to 22μH.\nThe inductor should have low core loss at 1.2MHz and low DCR for better efficiency."
     (at 53.975 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

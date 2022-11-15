@@ -391,7 +391,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 4000,
+    "annotate_start_num": 1000,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -456,6 +456,34 @@
     [
       "4e78659c-21b0-4088-8876-cb944b9d811b",
       "Neopixel"
+    ],
+    [
+      "b04f4c5a-4e76-40e9-92a5-ea5583eee301",
+      "Path LEDs"
+    ],
+    [
+      "9658dfb1-4477-4344-9589-04305661540d",
+      "Safehouse LEDs"
+    ],
+    [
+      "ae72b4cd-f8cd-4e25-a071-f182c93194a8",
+      "Finish LEDs"
+    ],
+    [
+      "3a14ebce-756d-40aa-bac7-1d518f2db794",
+      "Touchpad LEDs"
+    ],
+    [
+      "4b751c11-c45b-487e-8703-59b9458d4a6e",
+      "Dice LEDs"
+    ],
+    [
+      "cc9bc314-2a4e-4e95-97bc-04d42ef864f4",
+      "Battery indicator LED"
+    ],
+    [
+      "451bdb88-099a-45fd-b563-6afcc15e7e5f",
+      "Mechanical"
     ]
   ],
   "text_variables": {}

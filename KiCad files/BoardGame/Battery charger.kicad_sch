@@ -893,7 +893,7 @@
     (effects (font (size 0.9906 0.9906)) (justify left bottom))
     (uuid 55b3c1cf-20d2-47c8-afc9-b27e3d24e0e9)
   )
-  (text "POWER\nSKLOPKA" (at 175.26 55.245 0)
+  (text "POWER\nSWITCH" (at 175.26 55.245 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 566b05d7-3d57-40a6-9c49-2943ff102e24)
   )

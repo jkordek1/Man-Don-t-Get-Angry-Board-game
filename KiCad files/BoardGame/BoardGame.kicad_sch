@@ -198,7 +198,7 @@
   )
 
 
-  (text "TODO:\n- touchpad i kockica rupa ili prozirno?\n- switch staviti na stranu gdje je buzzer, centrirati ga\n- staviti kondenzator veći na mcu\n- spojiti jedan interrupt nekako na sklopku\n- koristiti kompletnu englesku dokumentaciju\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte\n- 3d ispis svega i testirati fitment\n- github dokumentirati skriptu"
+  (text "TODO:\n- touchpad i kockica rupa ili prozirno?\n- switch staviti na stranu gdje je buzzer, centrirati ga\n- staviti kondenzator veći na mcu\n- spojiti jedan interrupt nekako na sklopku\n- koristiti kompletnu englesku dokumentaciju\n- programski implementirati da je prilikom punjenja svjetlina minimalna\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte\n- 3d ispis svega i testirati fitment\n- github pojasniti fajlove\n- github dokumentirati skriptu"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)

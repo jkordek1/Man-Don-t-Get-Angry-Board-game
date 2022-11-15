@@ -1,6 +1,7 @@
 # Man, Don't Get Angry - Board game
 
 ## Project status
+- [x] Breadboard prototype
 - [x] Schematic
 - [x] PCBs
 - [x] Enclosure design

@@ -144,7 +144,7 @@
     (uuid f8032f70-b8c4-4e69-a1f1-e452b323f4f5)
   )
 
-  (label "TOUCHPAD" (at 170.18 69.85 0)
+  (label "TOUCHPAD" (at 170.815 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d2cf559-cc21-4034-b40f-d0f30eb8dd41)
   )

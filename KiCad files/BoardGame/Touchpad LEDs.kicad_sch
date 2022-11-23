@@ -299,12 +299,9 @@
     (uuid ee680e3b-d1c4-47a0-9dac-a0d869e918ec)
   )
 
-  (global_label "NP_5" (shape input) (at 63.5 83.185 180) (fields_autoplaced)
+  (hierarchical_label "NP_5" (shape input) (at 63.5 83.185 180)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1f627abc-22b3-43d3-a5ae-226de89a4d7c)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 56.3982 83.1056 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid 48f1b584-7bec-43bf-886d-2b237f5ac5e4)
   )
 
   (symbol (lib_id "LED:WS2812B") (at 94.615 83.185 0) (unit 1)

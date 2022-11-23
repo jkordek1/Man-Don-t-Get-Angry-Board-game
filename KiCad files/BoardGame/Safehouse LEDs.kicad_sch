@@ -331,12 +331,9 @@
     (uuid ff6918c7-a700-4545-a5c5-22e688a26c0f)
   )
 
-  (global_label "NP_4" (shape input) (at 75.565 76.835 180) (fields_autoplaced)
+  (hierarchical_label "NP_4" (shape input) (at 75.565 76.835 180)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c864052a-7469-47fa-88bc-96a28e3599cc)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 68.4632 76.7556 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
+    (uuid c5cfce71-23c0-4001-bfee-891055796b49)
   )
 
   (symbol (lib_id "power:VCC") (at 123.19 96.52 0) (unit 1)

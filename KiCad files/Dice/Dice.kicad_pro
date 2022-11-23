@@ -45,11 +45,13 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|46174663|52700001|c78fadda-aa1f-44ba-9b4b-008d7879d626|c052b606-93d9-4b8b-aee6-e81246c7a733"
+      ],
       "meta": {
         "version": 2
       },
@@ -333,7 +335,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Kockica.kicad_pro",
+    "filename": "Dice.kicad_pro",
     "version": 1
   },
   "net_settings": {

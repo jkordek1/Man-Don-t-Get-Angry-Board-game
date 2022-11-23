@@ -391,7 +391,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 1000,
+    "annotate_start_num": 1084,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -454,31 +454,27 @@
       "Boost Converter"
     ],
     [
-      "4e78659c-21b0-4088-8876-cb944b9d811b",
-      "Neopixel"
-    ],
-    [
-      "b04f4c5a-4e76-40e9-92a5-ea5583eee301",
+      "32dde120-04c0-4b9b-8629-f9a39c8c1834",
       "Path LEDs"
     ],
     [
-      "9658dfb1-4477-4344-9589-04305661540d",
+      "91ba8d27-07f1-4eba-bfbc-975a120c117b",
       "Safehouse LEDs"
     ],
     [
-      "ae72b4cd-f8cd-4e25-a071-f182c93194a8",
+      "c5cd13b3-9b34-4e8f-b70a-79b705a37663",
       "Finish LEDs"
     ],
     [
-      "3a14ebce-756d-40aa-bac7-1d518f2db794",
+      "522b0d86-69b3-4867-83a4-c5bdcf091b48",
       "Touchpad LEDs"
     ],
     [
-      "4b751c11-c45b-487e-8703-59b9458d4a6e",
+      "57d82324-0abf-4328-b3f1-f817347d0876",
       "Dice LEDs"
     ],
     [
-      "cc9bc314-2a4e-4e95-97bc-04d42ef864f4",
+      "cb2d0caa-d94a-4d9d-8880-03511cd9ebd5",
       "Battery indicator LED"
     ],
     [

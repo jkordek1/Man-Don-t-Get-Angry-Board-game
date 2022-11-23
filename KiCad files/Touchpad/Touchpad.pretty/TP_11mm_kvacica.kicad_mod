@@ -61,7 +61,7 @@
       (xy -2.286 3.048)
       (xy -2.032 3.048)
     ) (layer "F.Cu") (width 0.01) (fill solid) (tstamp b38f0cf9-0b74-417b-9a55-90f6de65f6e7))
-  (fp_circle (center 0 0) (end 2.7 0) (layer "B.Mask") (width 5.6) (fill none) (tstamp 7d70ddc6-97d8-4212-b91c-2d85f7e941f6))
+  (fp_circle (center 0 0) (end 5.180782 0) (layer "B.Mask") (width 0.001) (fill solid) (tstamp 7d70ddc6-97d8-4212-b91c-2d85f7e941f6))
   (fp_poly (pts
       (xy 2.86 -3.08)
       (xy 2.92 -3.06)
@@ -118,7 +118,7 @@
   (zone (net 0) (net_name "") (layer "B.Cu") (tstamp a5790c8a-4c33-4ebe-9ef8-f9817d491693) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts

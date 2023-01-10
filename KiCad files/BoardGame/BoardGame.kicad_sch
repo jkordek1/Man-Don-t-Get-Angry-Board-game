@@ -24,7 +24,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
@@ -64,7 +64,7 @@
       (property "Datasheet" "~" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "flag power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Special symbol for telling ERC where power comes from" (id 5) (at 0 0 0)
@@ -104,7 +104,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (id 5) (at 0 0 0)
@@ -156,7 +156,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (id 5) (at 0 0 0)
@@ -348,7 +348,7 @@
     (uuid f94630fc-523b-457e-bfce-beb11431e6ac)
   )
 
-  (text "TODO:\n- spojiti jedan interrupt nekako na sklopku\n- koristiti kompletnu englesku dokumentaciju\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte\n- github pojasniti fajlove\n- github dokumentirati skriptu"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte\n- github pojasniti fajlove\n- github dokumentirati skriptu"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
@@ -768,6 +768,9 @@
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/51dfea2f-b8ba-4ea9-a5e3-348592cd4731"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/fd6c59de-b7be-4f26-8816-b5abec10aca7"
+      (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
     )
     (path "/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1/5e2b5f85-9000-493f-92f5-49f06d324b8b"
       (reference "#PWR0201") (unit 1) (value "VBUS") (footprint "")
@@ -1628,7 +1631,7 @@
       (reference "C204") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/26611cf8-f408-4923-ba1b-15d08aaea331"
-      (reference "C301") (unit 1) (value "10u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C301") (unit 1) (value "4u7/25V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/137cdba1-cde3-4c49-b42e-e13f2be356c7/135f4bc5-099b-4265-8c91-bf943d864e7b"
       (reference "C302") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1646,7 +1649,7 @@
       (reference "C501") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/65588b23-e695-429b-8c22-93d906b0ce5a"
-      (reference "C502") (unit 1) (value "1500") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+      (reference "C502") (unit 1) (value "1500uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
     )
     (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/b9ee4bd4-f0be-4530-8a68-973b7c28f1c5"
       (reference "C504") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1683,6 +1686,9 @@
     )
     (path "/57d82324-0abf-4328-b3f1-f817347d0876/08600148-2d35-41fa-a390-3eae33b5752d"
       (reference "C1009") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70/3e518a9e-59d6-4b7c-b067-7eaae7a16ac9"
+      (reference "D501") (unit 1) (value "SS12") (footprint "Diode_SMD:D_SMA")
     )
     (path "/bfec7ff5-12b5-4af9-9131-b19e09596ace/8c1809b1-1a92-48e2-b214-386a6cd2fc28"
       (reference "D601") (unit 1) (value "SS12") (footprint "Diode_SMD:D_SMA")

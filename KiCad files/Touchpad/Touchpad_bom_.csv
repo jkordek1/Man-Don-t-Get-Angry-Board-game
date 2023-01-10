@@ -1,0 +1,21 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Unpolarized capacitor, small symbol",C_Small,C2 C4 C6,100n,C_0603_1608Metric,3,~
+2,"Unpolarized capacitor, small symbol",C_Small,C1 C3 C5,0-50 pF,C_0603_1608Metric,3,~
+3,"Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Counter_Clockwise,J1,Conn_02x03_Counter_Clockwise,PinHeader_2x03_P1.27mm_Vertical_SMD,1,~
+4,,TTP223-BA6,U1 U2 U3,TTP223-BA6,SOT-23-6,3,
+
+
+
+
+
+Component Groups:,4
+Component Count:,10
+Fitted Components:,10
+Number of PCBs:,1
+Total components:,10
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,10.1.2023. 13:06:24
+Schematic Source:,Touchpad.kicad_sch
+KiCad Version:,Eeschema (6.0.10)

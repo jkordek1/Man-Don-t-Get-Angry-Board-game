@@ -348,7 +348,7 @@
     (uuid f94630fc-523b-457e-bfce-beb11431e6ac)
   )
 
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- provjeriti shemu\n- isprintati na papir i provjeriti footprinte\n- github pojasniti fajlove\n- github dokumentirati skriptu"
+  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- ispraviti napajanje dovedeno na ulaz boost convertera\n- maknuti kondenzator na reset tipkalu\n- github pojasniti fajlove\n- github dokumentirati skriptu"
     (at 19.685 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)

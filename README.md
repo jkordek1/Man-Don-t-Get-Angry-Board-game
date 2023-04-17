@@ -31,7 +31,7 @@ Idea of the project is to create an electronic version of the game to help promo
 - [ ] Programming
 
 ## Issues
-- wrong power net fixed but needs to be fixed in board editor
+- Wrong power net fixed but needs to be fixed in board editor
 
 ## Main features
 

@@ -38,6 +38,7 @@ Idea of the project is to create an electronic version of the game to help promo
 Main features of the projects:
 - based on popular ATmega328p microcontroller used on Arduino boards
 - WS2812B-V5 addressable LEDs with no external components needed
+- WS2812-mini addressable LED used as battery level indicator
 - touchpads for controling the game
 - Piezo buzzer for audio queues
 - 3000mAh rechargable Li-Po battery

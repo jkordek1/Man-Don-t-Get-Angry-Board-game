@@ -6,7 +6,7 @@
 - [x] PCBs
 - [x] Enclosure design
 - [x] 3D CAD assembly and renders
-- [ ] Production
+- [x] Assembly
 - [ ] Programming
 
 ## About

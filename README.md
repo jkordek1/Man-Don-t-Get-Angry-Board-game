@@ -10,15 +10,6 @@
  
  </div>
 
-## Project status
-- [x] Breadboard prototype
-- [x] Schematic
-- [x] PCBs
-- [x] Enclosure design
-- [x] 3D CAD assembly and renders
-- [x] Assembly
-- [ ] Programming
-
 ## About
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mens_Erger_Je_Niet_Bordspel_1.jpg" width="400"/>
 
@@ -29,6 +20,15 @@ More information about the game can be found at the [wiki page](https://en.wikip
 
 ## Project idea
 Idea of the project is to create an electronic version of the game to help promoting STEM education (and to have some fun of course).
+
+## Project status
+- [x] Breadboard prototype
+- [x] Schematic
+- [x] PCBs
+- [x] Enclosure design
+- [x] 3D CAD assembly and renders
+- [x] Assembly
+- [ ] Programming
 
 ## Main features
 

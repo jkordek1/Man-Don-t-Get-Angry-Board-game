@@ -30,6 +30,9 @@ Idea of the project is to create an electronic version of the game to help promo
 - [x] Assembly
 - [ ] Programming
 
+## Issues
+- wrong power net fixed but needs to be fixed in board editor
+
 ## Main features
 
 Main features of the projects:

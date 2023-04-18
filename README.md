@@ -74,13 +74,11 @@ There are few 3D models files needed for enclosure:
 ## Project folder structure
     .
     ├── ...
-    ├── 3DPrint                 # Files for 3D printing
     ├── Images                  # Images of the project
-    ├── KiCADFiles              # Main folder
-    │   ├── 3d models           # 3d models of components
-    │   ├── Datasheet           # Datasheet collection
-    │   ├── Graphics            # Custom graphics for PCB
-    │   ├── gerber              # gerber output folder
-    │   ├── myDAQExpansionBoard # Main folder for KiCAD files
-    │   └── Schematic.pdf       # Project schematic
+    ├── Solidworks assembly     # Enclosure and PCB 3D model files
+    ├── KiCad files             # Main folder
+    │   ├── 3D models           # 3d models of components
+    │   ├── BoardGame           # KiCAD project for main PCB
+    │   ├── Dice                # KiCAD project for dice
+    │   └── Touchpad            # KiCAD project for touchpad controls
     └── ...

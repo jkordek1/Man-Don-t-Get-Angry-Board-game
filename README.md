@@ -34,10 +34,10 @@ Idea of the project is to create an electronic version of the game to help promo
 - Wrong power net (fixed in schematic), needs to be fixed in board editor
 
 ## Main features
-- based on popular ATmega328p microcontroller used on Arduino boards
+- Based on popular ATmega328p microcontroller used on Arduino boards
 - WS2812B-V5 addressable LEDs with no external components needed
 - WS2812-mini addressable LED used as battery level indicator
-- touchpads for controling the game
+- Touchpads connected via PCF8575 I/O Expander used as controls
 - Piezo buzzer for audio queues
 - 3000mAh rechargable Li-Po battery
 - USB-C connector for charging and programming the microcontroller

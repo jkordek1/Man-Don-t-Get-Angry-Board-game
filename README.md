@@ -42,6 +42,11 @@ Idea of the project is to create an electronic version of the game to help promo
 - 3000mAh rechargable Li-Po battery
 - USB-C connector for charging and programming the microcontroller
 
+## Images
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/front1.jpg">
+</p>
+
 ## 3D renders
 <img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
 

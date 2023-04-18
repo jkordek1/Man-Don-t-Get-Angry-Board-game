@@ -70,3 +70,17 @@ There are 3 different PCBs:
 There are few 3D models files needed for enclosure:
 1. Case - main part of the enclosure
 2. FieldBoard - Upper part of the enclosure printed with black and white filaments
+
+## Project folder structure
+    .
+    ├── ...
+    ├── 3DPrint                 # Files for 3D printing
+    ├── Images                  # Images of the project
+    ├── KiCADFiles              # Main folder
+    │   ├── 3d models           # 3d models of components
+    │   ├── Datasheet           # Datasheet collection
+    │   ├── Graphics            # Custom graphics for PCB
+    │   ├── gerber              # gerber output folder
+    │   ├── myDAQExpansionBoard # Main folder for KiCAD files
+    │   └── Schematic.pdf       # Project schematic
+    └── ...

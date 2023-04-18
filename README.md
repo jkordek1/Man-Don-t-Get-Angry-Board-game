@@ -43,8 +43,6 @@ Idea of the project is to create an electronic version of the game to help promo
 - USB-C connector for charging and programming the microcontroller
 
 ## Images
-
-## Images
 <p align="center">
   <img width="800" src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/front1.jpg">
 </p>

@@ -34,8 +34,6 @@ Idea of the project is to create an electronic version of the game to help promo
 - Wrong power net (fixed in schematic), needs to be fixed in board editor
 
 ## Main features
-
-Main features of the projects:
 - based on popular ATmega328p microcontroller used on Arduino boards
 - WS2812B-V5 addressable LEDs with no external components needed
 - WS2812-mini addressable LED used as battery level indicator

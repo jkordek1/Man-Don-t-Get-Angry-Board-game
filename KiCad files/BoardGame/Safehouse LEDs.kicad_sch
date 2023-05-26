@@ -331,6 +331,11 @@
     (uuid ff6918c7-a700-4545-a5c5-22e688a26c0f)
   )
 
+  (text "Safehouse LEDs" (at 90.17 40.64 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid a8703349-b6e6-4ab8-89a8-524d8ebf93a4)
+  )
+
   (hierarchical_label "NP_4" (shape input) (at 75.565 76.835 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c5cfce71-23c0-4001-bfee-891055796b49)

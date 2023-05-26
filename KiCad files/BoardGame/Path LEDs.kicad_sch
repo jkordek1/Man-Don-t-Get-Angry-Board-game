@@ -515,6 +515,11 @@
     (uuid fc10e729-d993-4218-851e-86db75746834)
   )
 
+  (text "Path LEDs" (at 25.4 22.86 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid 80132c24-e7dd-444a-bcd0-082b4054e68f)
+  )
+
   (hierarchical_label "NP_2" (shape input) (at 53.975 38.1 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 98431d5c-1652-4335-a9de-b027a087614f)

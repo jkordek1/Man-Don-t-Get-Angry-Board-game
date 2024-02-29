@@ -1,1877 +1,4936 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 63eb2946-fba3-4269-8c99-7569a962605c)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LED:WS2812B" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 5.08 5.715 0)
-        (effects (font (size 1.27 1.27)) (justify right bottom))
-      )
-      (property "Value" "WS2812B" (at 1.27 -5.715 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 1.27 -7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 2.54 -9.525 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "ki_keywords" "RGB LED NeoPixel addressable" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "RGB LED with integrated controller" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "WS2812B_0_0"
-        (text "RGB" (at 2.286 -4.191 0)
-          (effects (font (size 0.762 0.762)))
-        )
-      )
-      (symbol "WS2812B_0_1"
-        (polyline
-          (pts
-            (xy 1.27 -3.556)
-            (xy 1.778 -3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 1.778 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.699 -3.556)
-            (xy 2.667 -3.556)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 -2.54)
-            (xy 1.27 -3.556)
-            (xy 1.27 -3.048)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 -1.524)
-            (xy 1.27 -2.54)
-            (xy 1.27 -2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.683 -1.016)
-            (xy 3.683 -3.556)
-            (xy 3.683 -4.064)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.699 -1.524)
-            (xy 2.667 -1.524)
-            (xy 3.683 -3.556)
-            (xy 4.699 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 5.08 5.08) (end -5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "WS2812B_1_1"
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "DOUT" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "VSS" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "DIN" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (no_connect (at 211.455 64.135) (uuid a95559a5-ffb3-41f4-bba6-48ed5c12bd16))
-
-  (wire (pts (xy 79.375 64.135) (xy 80.645 64.135))
-    (stroke (width 0) (type default))
-    (uuid 02aac310-2479-4bf1-9637-35a05f3c327f)
-  )
-  (wire (pts (xy 194.945 64.135) (xy 196.215 64.135))
-    (stroke (width 0) (type default))
-    (uuid 065d9964-f090-4082-a29e-6e6537d90c94)
-  )
-  (wire (pts (xy 161.925 64.135) (xy 163.195 64.135))
-    (stroke (width 0) (type default))
-    (uuid 60780891-fb65-4430-b99e-94b847ffced7)
-  )
-  (wire (pts (xy 112.395 64.135) (xy 113.665 64.135))
-    (stroke (width 0) (type default))
-    (uuid 6f919cbe-d3e2-4ffc-b3a8-bf87a993112e)
-  )
-  (wire (pts (xy 128.905 64.135) (xy 130.175 64.135))
-    (stroke (width 0) (type default))
-    (uuid 75a95f6d-3f4d-4e23-9264-55afbdaf595d)
-  )
-  (wire (pts (xy 178.435 64.135) (xy 179.705 64.135))
-    (stroke (width 0) (type default))
-    (uuid 9b5cf119-1e8c-4fa9-b528-170de889b6a1)
-  )
-  (wire (pts (xy 145.415 64.135) (xy 146.685 64.135))
-    (stroke (width 0) (type default))
-    (uuid e28d4ff7-eb27-4acd-9bf5-b0f65116b97d)
-  )
-  (wire (pts (xy 57.15 64.135) (xy 59.055 64.135))
-    (stroke (width 0) (type default))
-    (uuid f6d4a813-0ca7-4dfa-8b52-611f82a14b6f)
-  )
-  (wire (pts (xy 95.885 64.135) (xy 97.155 64.135))
-    (stroke (width 0) (type default))
-    (uuid feb1c4c5-c620-4613-a74b-80525b93d6a1)
-  )
-
-  (text "Dice LEDs" (at 67.31 32.385 0)
-    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
-    (uuid b66952c8-5506-49ea-860b-6ec02c05bfc3)
-  )
-
-  (hierarchical_label "NP_3" (shape input) (at 57.15 64.135 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a67c52bb-2fe5-46e9-9c7b-c711896edb0c)
-  )
-
-  (symbol (lib_id "power:VCC") (at 159.385 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 067d6142-bc45-4b8d-8d36-2659df420387)
-    (property "Reference" "#PWR01219" (at 159.385 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 159.385 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 159.385 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 159.385 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4441d521-d5dc-4032-b3d7-473d62e3ab93))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01219") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 159.385 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 08600148-2d35-41fa-a390-3eae33b5752d)
-    (property "Reference" "C1009" (at 161.7218 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 161.7218 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 159.385 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 159.385 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 159.385 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 159.385 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c1f18440-34df-4169-916d-bc9259de7cf8))
-    (pin "2" (uuid b5a0f557-887e-45f4-9fe3-6f859c43402f))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1009") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 117.475 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0abaea67-c5ed-49cf-bfea-a3599ef0d5df)
-    (property "Reference" "C1005" (at 119.8118 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 119.8118 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 117.475 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 117.475 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 117.475 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 117.475 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 64ef0c20-4740-4f21-ac7e-3bfb98f69518))
-    (pin "2" (uuid 6a214e54-ba89-4a97-9884-af002ab10545))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1005") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 76.2 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b8b2ba9-f96f-4f54-8076-843f3700b4c9)
-    (property "Reference" "#PWR01211" (at 76.2 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 76.2 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1520cb71-1fb9-4627-bb10-ccb0b81d83e2))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01211") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 170.815 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d0ccb06-9742-464d-bafd-a88a0ec1041d)
-    (property "Reference" "#PWR01199" (at 170.815 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 170.815 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 170.815 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 170.815 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 532b53c5-192d-45cc-b81a-a3d3d2e65d94))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01199") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 117.475 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0df48d63-55f4-4851-8fe3-f9a534e11bd9)
-    (property "Reference" "#PWR01224" (at 117.475 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 117.475 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 117.475 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 117.475 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 17590efa-95bb-4939-9a19-f21791d648d6))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01224") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 187.325 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0f6d94ff-3137-41c2-9aa0-6dd7767d36d1)
-    (property "Reference" "#PWR01209" (at 187.325 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 187.325 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 187.325 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 187.325 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c9870987-eed6-4759-a0d9-1ed6c56168f5))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01209") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 121.285 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c97b0c6-468b-4d85-aa5f-8cfb84d97dd7)
-    (property "Reference" "#PWR01196" (at 121.285 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 121.285 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.285 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 121.285 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4fb2226d-af00-4c84-804c-9dc4cd0bdcac))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01196") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 86.36 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1ee2d77e-5420-4e79-b6a5-675db0472233)
-    (property "Reference" "C1002" (at 88.6968 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 88.6968 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.36 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.36 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 86.36 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 86.36 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e09e297b-6ed3-4045-b5ed-5a8711246d27))
-    (pin "2" (uuid 53b753c8-8bdb-4ad5-98eb-ade6401aecbc))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1002") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 170.815 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 22bf726c-1859-4001-9345-d3adcafd3ad5)
-    (property "Reference" "D1103" (at 166.37 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 176.53 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 172.085 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 173.355 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 170.815 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 170.815 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18d1bbf5-260d-43ce-9159-1121f6bcc7b7))
-    (pin "2" (uuid 1f471650-618d-498a-972b-01026f8bb053))
-    (pin "3" (uuid 7f89dda9-c84d-445e-a136-82aafc1c0b7e))
-    (pin "4" (uuid c41a55cc-4b47-477a-9813-8029c90a67f3))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1103") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 148.59 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 232569d1-e312-4e93-8af8-03be11856003)
-    (property "Reference" "#PWR01218" (at 148.59 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 148.59 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 148.59 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 148.59 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5d055c5-8114-44dc-aa9b-0356e3cb298d))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01218") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 71.755 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2889fbf4-9f1e-49c2-9799-757678483a50)
-    (property "Reference" "#PWR01169" (at 71.755 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 71.755 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.755 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.755 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c161d991-306b-44b6-af1d-0d01d8bbeba5))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01169") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 88.265 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2e869c7f-2e99-45ef-b82a-8b254de979d2)
-    (property "Reference" "#PWR01203" (at 88.265 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 88.265 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 88.265 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 88.265 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6dfa0dc0-e991-44bd-9d9f-452358615bdf))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01203") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 86.36 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2f402d60-3156-47a0-ae7b-4470bc79a3ff)
-    (property "Reference" "#PWR01212" (at 86.36 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 86.36 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 86.36 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 86.36 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e067859-bc36-4b48-8859-870638b04cae))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01212") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 121.285 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2f83f3c4-2933-4951-b6e2-d11ec3b09cef)
-    (property "Reference" "D1100" (at 116.84 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 127 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 122.555 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 123.825 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 121.285 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 121.285 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82f839f4-bb0f-4df1-917f-e2077122f057))
-    (pin "2" (uuid 73e810c8-534e-431c-a0d5-aa06f9507e53))
-    (pin "3" (uuid 04a4d0e7-05df-4c84-b094-16f6945f75cb))
-    (pin "4" (uuid 824ba606-afc3-48fe-989e-38c67d64f517))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1100") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 127.635 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3cf44877-5e6c-42e2-860d-bf0f6cfafdef)
-    (property "Reference" "#PWR01225" (at 127.635 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 127.635 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127.635 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127.635 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e2adfc2-5e88-4e22-b698-e94a6aa69d27))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01225") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 61.595 64.135 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3d926641-8f7d-45d8-8669-87d412be5502)
-    (property "Reference" "R1004" (at 61.595 62.23 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "470R" (at 61.595 66.04 90)
-      (effects (font (size 1.2 1.2)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 61.595 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 61.595 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "da" (at 61.595 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40eff65f-9943-4b95-a75e-9271b8214296))
-    (pin "2" (uuid cda0634a-e338-40f9-8704-a0f9160c0288))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "R1004") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 121.285 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 409bbb1f-ec71-4a7b-b7dc-d3eeb8683574)
-    (property "Reference" "#PWR01205" (at 121.285 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 121.285 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.285 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 121.285 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d7b9e2be-5c12-462e-81d1-3337ba36e7fd))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01205") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 88.265 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 48bbd7e7-b2da-423b-848c-123f8adc3596)
-    (property "Reference" "D1098" (at 83.82 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 93.98 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 89.535 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 90.805 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 88.265 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 88.265 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2d65264f-5011-449e-965d-3f19cb9870be))
-    (pin "2" (uuid d01d135f-6226-482e-bd39-7304236e1a27))
-    (pin "3" (uuid e6b70982-9ff6-44be-aac7-682c62f4e197))
-    (pin "4" (uuid 107c1d15-4a29-4739-83b8-5fbb6e1362a6))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1098") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 88.265 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 48fe32de-c445-4f15-acb8-23985f3d68b2)
-    (property "Reference" "#PWR01170" (at 88.265 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 88.265 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 88.265 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 88.265 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ce531119-5859-492b-b1c6-0aefbd517962))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01170") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 86.36 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4f21c909-92d0-4e3d-bb3a-944c81b1794a)
-    (property "Reference" "#PWR01221" (at 86.36 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 86.36 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 86.36 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 86.36 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3b6a394c-0624-4b0b-875a-7abc2f107ad8))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01221") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 137.795 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 517b5eda-a927-4294-8e35-4b9a42e21f61)
-    (property "Reference" "#PWR01197" (at 137.795 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 137.795 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 137.795 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.795 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 11c19ca0-7878-4768-a896-f54a49e31db4))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01197") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 76.2 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5694c044-fcff-4dcb-ad82-e7fc6e69615c)
-    (property "Reference" "C1001" (at 78.5368 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 78.5368 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 76.2 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 76.2 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 76.2 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 76.2 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52235467-49d5-4108-ba37-a1c3796a2e07))
-    (pin "2" (uuid 6b2f77d7-f351-4c51-8c18-9599636db0f4))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1001") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 117.475 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 635434e4-ff93-44aa-8de6-584b467cc330)
-    (property "Reference" "#PWR01215" (at 117.475 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 117.475 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 117.475 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 117.475 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f86fd4c4-cea3-483a-a5ba-e313ff0c8c93))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01215") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 137.795 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6a55cc6b-aaeb-41fd-aae2-77e2cfac4485)
-    (property "Reference" "D1101" (at 133.35 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 143.51 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 139.065 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 140.335 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 137.795 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 137.795 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 71142158-630b-4117-9683-096200d30e9d))
-    (pin "2" (uuid 49c24d7f-65a4-45c8-8dfe-37b2ff64ef4e))
-    (pin "3" (uuid 3ea4df0f-ccfc-4f13-ad4d-ebf0589b8aaa))
-    (pin "4" (uuid d93a7922-1f2b-447f-8c01-e759697dba40))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 148.59 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7697acf9-7bc0-4f0e-b0b5-c3cf3d079fc0)
-    (property "Reference" "C1008" (at 150.9268 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 150.9268 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 148.59 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 148.59 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 148.59 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 148.59 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4fa64342-9b4e-4c97-95bd-f1b25866db38))
-    (pin "2" (uuid 702ba5a1-cbd4-47c6-a780-31b70384f503))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1008") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 104.775 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7d39f37b-0913-4da1-bd94-b813812393a1)
-    (property "Reference" "#PWR01195" (at 104.775 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 104.775 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 104.775 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.775 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fd44eec-9b48-4dcb-8905-93be2693deeb))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01195") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 203.835 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7f5ac4d4-493a-4cbe-8953-69575836f4f0)
-    (property "Reference" "D1105" (at 199.39 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 209.55 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 205.105 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 206.375 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 203.835 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 203.835 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d1831e63-c1df-4b55-9a27-d4f53ee9959a))
-    (pin "2" (uuid 1dc30f8a-8bfb-4bfa-adb4-61c5a96ef97c))
-    (pin "3" (uuid 286fa7e6-5d7d-4710-9bd4-20c9c246c6a7))
-    (pin "4" (uuid ddf0639c-cc78-4223-a1fd-871f3e44244e))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1105") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 203.835 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 82847ad9-9b61-4670-bb6c-65f2e18d0c33)
-    (property "Reference" "#PWR01210" (at 203.835 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 203.835 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.835 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.835 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ad6d7241-49ca-48f7-a7fe-c1c90aae580f))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01210") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 154.305 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8aec3b14-671e-43c9-a9be-ce36752edc5f)
-    (property "Reference" "#PWR01198" (at 154.305 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 154.305 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 154.305 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.305 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5756642-1598-41dc-93af-f2c8b352ec32))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01198") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 104.775 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8b132d93-6072-4fe8-9b76-8a977bd09c67)
-    (property "Reference" "#PWR01204" (at 104.775 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 104.775 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 104.775 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.775 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3a93b025-5d86-4faa-ac7c-409990f39b8c))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01204") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 148.59 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 910264ad-8f6a-47c0-b224-e48ba67b0c4d)
-    (property "Reference" "#PWR01227" (at 148.59 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 148.59 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 148.59 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 148.59 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 73cfab97-45fb-4d8b-8586-8bea00b79614))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01227") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 138.43 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 912beaf7-636a-49f0-8154-68cb101fa5ea)
-    (property "Reference" "#PWR01217" (at 138.43 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 138.43 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 138.43 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 138.43 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d381e181-0cd2-4f14-986d-220872bec757))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01217") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 127.635 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 91b17978-dcf0-460e-add4-c511e15c14d6)
-    (property "Reference" "#PWR01216" (at 127.635 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 127.635 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127.635 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127.635 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 932128fc-3594-4e66-b262-726529210cb8))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01216") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 97.155 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 956de412-c1d6-4ed4-a55a-ca019c8eef29)
-    (property "Reference" "#PWR01222" (at 97.155 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 97.155 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 97.155 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 97.155 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0f5afd02-d296-481a-97cc-7b74ceca6444))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01222") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 107.315 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 974df812-6bc2-45fa-8482-a4f50cd6f982)
-    (property "Reference" "#PWR01214" (at 107.315 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 107.315 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 107.315 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 107.315 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2cd9fd8f-5066-4770-8bdd-38f6da4424ba))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01214") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 138.43 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9c5907c5-dbd9-4915-a713-7aef6e7e4d89)
-    (property "Reference" "#PWR01226" (at 138.43 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 138.43 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 138.43 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 138.43 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 02389c09-2e37-4cf8-aa41-51f03121cf72))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01226") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 71.755 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9d87392a-516a-48e2-834f-5b0d9649c6b9)
-    (property "Reference" "#PWR01202" (at 71.755 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 71.755 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.755 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.755 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a6084f4-034e-4cec-bc74-f1ead80c24fe))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01202") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 159.385 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a2f8f770-324f-40e3-8b1b-aad688902ed2)
-    (property "Reference" "#PWR01228" (at 159.385 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 159.385 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 159.385 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 159.385 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 45fd2b0b-58d2-47d8-8802-c07bcab3866d))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01228") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 127.635 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a711f1a7-4dc1-440a-87e1-8fbbb6896ea2)
-    (property "Reference" "C1006" (at 129.9718 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 129.9718 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 127.635 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127.635 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 127.635 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 127.635 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2d2a6e9d-c2e1-4434-92b2-658a116ac594))
-    (pin "2" (uuid 9e1e1eef-0d77-48f7-adeb-a2db0da1ae58))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1006") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 137.795 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a991116f-8b61-48a6-b4ef-4f04b9f5c351)
-    (property "Reference" "#PWR01206" (at 137.795 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 137.795 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 137.795 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.795 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e31f9f3-40e2-4e03-a9a7-2005812220ea))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01206") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 154.305 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid af4243bf-b422-4506-90c2-5c3d2f340812)
-    (property "Reference" "#PWR01207" (at 154.305 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 154.305 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 154.305 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.305 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 756de03b-20b3-4567-9e76-d2225ac7c840))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01207") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 104.775 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b4de4bd2-f605-4856-9885-9ec50a83fba1)
-    (property "Reference" "D1099" (at 100.33 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 110.49 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 106.045 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 107.315 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 104.775 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 104.775 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5c11f33-28bc-4eb8-a3f4-900b904e9304))
-    (pin "2" (uuid a552a57e-be11-47bd-aef2-dcccfb61336c))
-    (pin "3" (uuid 39c6fc24-00eb-40af-a835-f303972ba582))
-    (pin "4" (uuid 571d8bcd-c751-4de5-8510-8abd62f96864))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1099") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 170.815 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b90444a1-9807-4ac6-9337-9acf325feb10)
-    (property "Reference" "#PWR01208" (at 170.815 78.105 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 170.815 76.1984 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 170.815 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 170.815 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e2ebc45-9fea-4d4c-93f5-c2c88033b515))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01208") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 154.305 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bbca763f-1811-4012-9d74-94379e17605c)
-    (property "Reference" "D1102" (at 149.86 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 160.02 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 155.575 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 156.845 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 154.305 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 154.305 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a7f7da27-31e7-45fb-800b-70e29dbe50c8))
-    (pin "2" (uuid 88077912-6263-42ec-9586-b4a9b648701f))
-    (pin "3" (uuid 2692f8b0-2abc-4d6e-9ebf-e81156d921c0))
-    (pin "4" (uuid 43fe5cbd-163f-4ce9-933b-fed6bbcde849))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 107.315 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bff5e51e-f80b-4496-af85-df037a717162)
-    (property "Reference" "C1004" (at 109.6518 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 109.6518 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 107.315 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.315 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 107.315 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 107.315 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 98ea8331-d5f5-43db-84d2-a58878f0b23b))
-    (pin "2" (uuid 5c432854-cc10-4c59-900f-ab2f595b4d44))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1004") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 187.325 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c08f73c2-d8cd-4d1b-9eab-0fb3f3fece57)
-    (property "Reference" "D1104" (at 182.88 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 193.04 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 188.595 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 189.865 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 187.325 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 187.325 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d03742e2-7eec-457e-a18c-0d3965a960e1))
-    (pin "2" (uuid b51bbdfc-7751-405f-bfb5-20c27dc52a2b))
-    (pin "3" (uuid a6fcda5b-7c41-47ce-90e2-0ddc78fe49d2))
-    (pin "4" (uuid 1f7b6116-97c3-4310-85c0-03ef5047c3fd))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1104") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 187.325 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c4e3eb64-982d-4f4d-86be-1c4c42ec8709)
-    (property "Reference" "#PWR01200" (at 187.325 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 187.325 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 187.325 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 187.325 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5357637c-bd10-46db-a777-3b21fff0e593))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01200") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 76.2 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d54c1938-1180-4388-ad71-2a7c7687343f)
-    (property "Reference" "#PWR01220" (at 76.2 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 76.2 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 78b89dce-139c-43d5-924d-c5dc53e524db))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01220") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LED:WS2812B") (at 71.755 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d720f17c-e36d-4eda-ab72-37e7fb49e148)
-    (property "Reference" "D1097" (at 67.31 57.785 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "WS2812B" (at 77.47 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Footprints:WS2812-mini" (at 73.025 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 74.295 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "JLCPCB Part #" "C527089" (at 71.755 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 71.755 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b9940b61-3a88-463f-b9f2-c5583e9b9111))
-    (pin "2" (uuid e065c36d-f354-481c-a191-976d45c9b4a7))
-    (pin "3" (uuid 10e9a44d-e8ca-4d8d-af4e-630b8b3429e2))
-    (pin "4" (uuid 71265875-a3cb-44a9-8319-285242daca8a))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "D1097") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 97.155 98.425 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dd25359e-4117-427e-9914-d64c3f0f3f5f)
-    (property "Reference" "#PWR01213" (at 97.155 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 97.155 94.8492 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 97.155 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 97.155 98.425 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a30fe4c-a645-4ce0-bb40-52748dc596f9))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01213") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 107.315 103.505 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f6dccb0a-6bfa-4ff6-9f64-76bf218ba0ed)
-    (property "Reference" "#PWR01223" (at 107.315 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 107.315 107.9484 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 107.315 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 107.315 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ab1ab862-e11a-403c-a1c2-f730f6919d85))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01223") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 203.835 56.515 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fa4aa498-bfe8-4c33-8728-b15b5e60b2b9)
-    (property "Reference" "#PWR01201" (at 203.835 60.325 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 203.835 52.9392 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.835 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.835 56.515 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4f676d5f-0440-4c01-9cf2-9984d79add70))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "#PWR01201") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 97.155 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb42d0c2-c60c-4b70-91a0-94fdad26d217)
-    (property "Reference" "C1003" (at 99.4918 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 99.4918 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 97.155 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 97.155 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 97.155 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 97.155 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf01d894-63bd-457d-9856-93992f4ec5a5))
-    (pin "2" (uuid 22345c66-c96a-4d2c-8b21-6f822a708b7f))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1003") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 138.43 100.965 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb8fbf27-e287-4534-a7a1-36119ebf3e95)
-    (property "Reference" "C1007" (at 140.7668 99.7966 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 140.7668 102.108 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 138.43 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "U labosu?" "ne" (at 138.43 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB Part #" "C113803" (at 138.43 100.965 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84c8611c-4161-42c3-83cc-a1fe84cc98c0))
-    (pin "2" (uuid c31552f3-9d21-4bd4-9944-c3ad4cd934c2))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
-          (reference "C1007") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "63eb2946-fba3-4269-8c99-7569a962605c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 211.455 64.135)
+		(uuid "a95559a5-ffb3-41f4-bba6-48ed5c12bd16")
+	)
+	(wire
+		(pts
+			(xy 79.375 64.135) (xy 80.645 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aac310-2479-4bf1-9637-35a05f3c327f")
+	)
+	(wire
+		(pts
+			(xy 194.945 64.135) (xy 196.215 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065d9964-f090-4082-a29e-6e6537d90c94")
+	)
+	(wire
+		(pts
+			(xy 161.925 64.135) (xy 163.195 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60780891-fb65-4430-b99e-94b847ffced7")
+	)
+	(wire
+		(pts
+			(xy 112.395 64.135) (xy 113.665 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f919cbe-d3e2-4ffc-b3a8-bf87a993112e")
+	)
+	(wire
+		(pts
+			(xy 128.905 64.135) (xy 130.175 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a95f6d-3f4d-4e23-9264-55afbdaf595d")
+	)
+	(wire
+		(pts
+			(xy 178.435 64.135) (xy 179.705 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5cf119-1e8c-4fa9-b528-170de889b6a1")
+	)
+	(wire
+		(pts
+			(xy 145.415 64.135) (xy 146.685 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28d4ff7-eb27-4acd-9bf5-b0f65116b97d")
+	)
+	(wire
+		(pts
+			(xy 57.15 64.135) (xy 59.055 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d4a813-0ca7-4dfa-8b52-611f82a14b6f")
+	)
+	(wire
+		(pts
+			(xy 95.885 64.135) (xy 97.155 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb1c4c5-c620-4613-a74b-80525b93d6a1")
+	)
+	(text "Dice LEDs"
+		(exclude_from_sim no)
+		(at 67.31 32.385 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66952c8-5506-49ea-860b-6ec02c05bfc3")
+	)
+	(hierarchical_label "NP_3"
+		(shape input)
+		(at 57.15 64.135 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a67c52bb-2fe5-46e9-9c7b-c711896edb0c")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 159.385 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "067d6142-bc45-4b8d-8d36-2659df420387")
+		(property "Reference" "#PWR01219"
+			(at 159.385 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 159.385 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.385 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4441d521-d5dc-4032-b3d7-473d62e3ab93")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 159.385 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08600148-2d35-41fa-a390-3eae33b5752d")
+		(property "Reference" "C1009"
+			(at 161.7218 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 161.7218 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.385 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 159.385 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.385 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 159.385 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 159.385 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1f18440-34df-4169-916d-bc9259de7cf8")
+		)
+		(pin "2"
+			(uuid "b5a0f557-887e-45f4-9fe3-6f859c43402f")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 117.475 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0abaea67-c5ed-49cf-bfea-a3599ef0d5df")
+		(property "Reference" "C1005"
+			(at 119.8118 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 119.8118 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 117.475 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.475 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 117.475 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 117.475 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ef0c20-4740-4f21-ac7e-3bfb98f69518")
+		)
+		(pin "2"
+			(uuid "6a214e54-ba89-4a97-9884-af002ab10545")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b8b2ba9-f96f-4f54-8076-843f3700b4c9")
+		(property "Reference" "#PWR01211"
+			(at 76.2 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1520cb71-1fb9-4627-bb10-ccb0b81d83e2")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 170.815 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0ccb06-9742-464d-bafd-a88a0ec1041d")
+		(property "Reference" "#PWR01199"
+			(at 170.815 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 170.815 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.815 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.815 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "532b53c5-192d-45cc-b81a-a3d3d2e65d94")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 117.475 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df48d63-55f4-4851-8fe3-f9a534e11bd9")
+		(property "Reference" "#PWR01224"
+			(at 117.475 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.475 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17590efa-95bb-4939-9a19-f21791d648d6")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.325 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f6d94ff-3137-41c2-9aa0-6dd7767d36d1")
+		(property "Reference" "#PWR01209"
+			(at 187.325 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.325 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.325 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.325 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.325 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9870987-eed6-4759-a0d9-1ed6c56168f5")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 121.285 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c97b0c6-468b-4d85-aa5f-8cfb84d97dd7")
+		(property "Reference" "#PWR01196"
+			(at 121.285 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 121.285 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fb2226d-af00-4c84-804c-9dc4cd0bdcac")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee2d77e-5420-4e79-b6a5-675db0472233")
+		(property "Reference" "C1002"
+			(at 88.6968 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 88.6968 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.36 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 86.36 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 86.36 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e09e297b-6ed3-4045-b5ed-5a8711246d27")
+		)
+		(pin "2"
+			(uuid "53b753c8-8bdb-4ad5-98eb-ade6401aecbc")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 170.815 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22bf726c-1859-4001-9345-d3adcafd3ad5")
+		(property "Reference" "D1103"
+			(at 166.37 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 176.53 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 172.085 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 173.355 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.815 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 170.815 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 170.815 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18d1bbf5-260d-43ce-9159-1121f6bcc7b7")
+		)
+		(pin "2"
+			(uuid "1f471650-618d-498a-972b-01026f8bb053")
+		)
+		(pin "3"
+			(uuid "7f89dda9-c84d-445e-a136-82aafc1c0b7e")
+		)
+		(pin "4"
+			(uuid "c41a55cc-4b47-477a-9813-8029c90a67f3")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 148.59 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232569d1-e312-4e93-8af8-03be11856003")
+		(property "Reference" "#PWR01218"
+			(at 148.59 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 148.59 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d055c5-8114-44dc-aa9b-0356e3cb298d")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 71.755 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2889fbf4-9f1e-49c2-9799-757678483a50")
+		(property "Reference" "#PWR01169"
+			(at 71.755 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 71.755 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c161d991-306b-44b6-af1d-0d01d8bbeba5")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.265 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e869c7f-2e99-45ef-b82a-8b254de979d2")
+		(property "Reference" "#PWR01203"
+			(at 88.265 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.265 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.265 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dfa0dc0-e991-44bd-9d9f-452358615bdf")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 86.36 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f402d60-3156-47a0-ae7b-4470bc79a3ff")
+		(property "Reference" "#PWR01212"
+			(at 86.36 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 86.36 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e067859-bc36-4b48-8859-870638b04cae")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 121.285 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f83f3c4-2933-4951-b6e2-d11ec3b09cef")
+		(property "Reference" "D1100"
+			(at 116.84 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 127 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 122.555 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 123.825 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 121.285 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 121.285 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82f839f4-bb0f-4df1-917f-e2077122f057")
+		)
+		(pin "2"
+			(uuid "73e810c8-534e-431c-a0d5-aa06f9507e53")
+		)
+		(pin "3"
+			(uuid "04a4d0e7-05df-4c84-b094-16f6945f75cb")
+		)
+		(pin "4"
+			(uuid "824ba606-afc3-48fe-989e-38c67d64f517")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127.635 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf44877-5e6c-42e2-860d-bf0f6cfafdef")
+		(property "Reference" "#PWR01225"
+			(at 127.635 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.635 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e2adfc2-5e88-4e22-b698-e94a6aa69d27")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 61.595 64.135 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d926641-8f7d-45d8-8669-87d412be5502")
+		(property "Reference" "R1004"
+			(at 61.595 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 61.595 66.04 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 61.595 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.595 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 61.595 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "da"
+			(at 61.595 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40eff65f-9943-4b95-a75e-9271b8214296")
+		)
+		(pin "2"
+			(uuid "cda0634a-e338-40f9-8704-a0f9160c0288")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "R1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.285 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "409bbb1f-ec71-4a7b-b7dc-d3eeb8683574")
+		(property "Reference" "#PWR01205"
+			(at 121.285 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.285 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.285 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b9e2be-5c12-462e-81d1-3337ba36e7fd")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 88.265 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48bbd7e7-b2da-423b-848c-123f8adc3596")
+		(property "Reference" "D1098"
+			(at 83.82 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 93.98 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 89.535 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 90.805 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.265 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 88.265 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 88.265 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d65264f-5011-449e-965d-3f19cb9870be")
+		)
+		(pin "2"
+			(uuid "d01d135f-6226-482e-bd39-7304236e1a27")
+		)
+		(pin "3"
+			(uuid "e6b70982-9ff6-44be-aac7-682c62f4e197")
+		)
+		(pin "4"
+			(uuid "107c1d15-4a29-4739-83b8-5fbb6e1362a6")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 88.265 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48fe32de-c445-4f15-acb8-23985f3d68b2")
+		(property "Reference" "#PWR01170"
+			(at 88.265 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 88.265 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.265 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce531119-5859-492b-b1c6-0aefbd517962")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f21c909-92d0-4e3d-bb3a-944c81b1794a")
+		(property "Reference" "#PWR01221"
+			(at 86.36 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6a394c-0624-4b0b-875a-7abc2f107ad8")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 137.795 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "517b5eda-a927-4294-8e35-4b9a42e21f61")
+		(property "Reference" "#PWR01197"
+			(at 137.795 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 137.795 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.795 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.795 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.795 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11c19ca0-7878-4768-a896-f54a49e31db4")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5694c044-fcff-4dcb-ad82-e7fc6e69615c")
+		(property "Reference" "C1001"
+			(at 78.5368 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 78.5368 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 76.2 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 76.2 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52235467-49d5-4108-ba37-a1c3796a2e07")
+		)
+		(pin "2"
+			(uuid "6b2f77d7-f351-4c51-8c18-9599636db0f4")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 117.475 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635434e4-ff93-44aa-8de6-584b467cc330")
+		(property "Reference" "#PWR01215"
+			(at 117.475 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 117.475 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f86fd4c4-cea3-483a-a5ba-e313ff0c8c93")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 137.795 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a55cc6b-aaeb-41fd-aae2-77e2cfac4485")
+		(property "Reference" "D1101"
+			(at 133.35 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 143.51 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 139.065 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 140.335 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.795 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 137.795 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 137.795 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71142158-630b-4117-9683-096200d30e9d")
+		)
+		(pin "2"
+			(uuid "49c24d7f-65a4-45c8-8dfe-37b2ff64ef4e")
+		)
+		(pin "3"
+			(uuid "3ea4df0f-ccfc-4f13-ad4d-ebf0589b8aaa")
+		)
+		(pin "4"
+			(uuid "d93a7922-1f2b-447f-8c01-e759697dba40")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7697acf9-7bc0-4f0e-b0b5-c3cf3d079fc0")
+		(property "Reference" "C1008"
+			(at 150.9268 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 150.9268 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fa64342-9b4e-4c97-95bd-f1b25866db38")
+		)
+		(pin "2"
+			(uuid "702ba5a1-cbd4-47c6-a780-31b70384f503")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 104.775 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d39f37b-0913-4da1-bd94-b813812393a1")
+		(property "Reference" "#PWR01195"
+			(at 104.775 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.775 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.775 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd44eec-9b48-4dcb-8905-93be2693deeb")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 203.835 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f5ac4d4-493a-4cbe-8953-69575836f4f0")
+		(property "Reference" "D1105"
+			(at 199.39 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 209.55 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 205.105 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 206.375 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.835 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 203.835 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 203.835 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1831e63-c1df-4b55-9a27-d4f53ee9959a")
+		)
+		(pin "2"
+			(uuid "1dc30f8a-8bfb-4bfa-adb4-61c5a96ef97c")
+		)
+		(pin "3"
+			(uuid "286fa7e6-5d7d-4710-9bd4-20c9c246c6a7")
+		)
+		(pin "4"
+			(uuid "ddf0639c-cc78-4223-a1fd-871f3e44244e")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.835 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82847ad9-9b61-4670-bb6c-65f2e18d0c33")
+		(property "Reference" "#PWR01210"
+			(at 203.835 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.835 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.835 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.835 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6d7241-49ca-48f7-a7fe-c1c90aae580f")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 154.305 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aec3b14-671e-43c9-a9be-ce36752edc5f")
+		(property "Reference" "#PWR01198"
+			(at 154.305 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 154.305 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.305 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.305 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5756642-1598-41dc-93af-f2c8b352ec32")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.775 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b132d93-6072-4fe8-9b76-8a977bd09c67")
+		(property "Reference" "#PWR01204"
+			(at 104.775 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.775 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a93b025-5d86-4faa-ac7c-409990f39b8c")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "910264ad-8f6a-47c0-b224-e48ba67b0c4d")
+		(property "Reference" "#PWR01227"
+			(at 148.59 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73cfab97-45fb-4d8b-8586-8bea00b79614")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 138.43 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912beaf7-636a-49f0-8154-68cb101fa5ea")
+		(property "Reference" "#PWR01217"
+			(at 138.43 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 138.43 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d381e181-0cd2-4f14-986d-220872bec757")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 127.635 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b17978-dcf0-460e-add4-c511e15c14d6")
+		(property "Reference" "#PWR01216"
+			(at 127.635 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 127.635 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "932128fc-3594-4e66-b262-726529210cb8")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.155 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "956de412-c1d6-4ed4-a55a-ca019c8eef29")
+		(property "Reference" "#PWR01222"
+			(at 97.155 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.155 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f5afd02-d296-481a-97cc-7b74ceca6444")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 107.315 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "974df812-6bc2-45fa-8482-a4f50cd6f982")
+		(property "Reference" "#PWR01214"
+			(at 107.315 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 107.315 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.315 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.315 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd9fd8f-5066-4770-8bdd-38f6da4424ba")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c5907c5-dbd9-4915-a713-7aef6e7e4d89")
+		(property "Reference" "#PWR01226"
+			(at 138.43 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02389c09-2e37-4cf8-aa41-51f03121cf72")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.755 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d87392a-516a-48e2-834f-5b0d9649c6b9")
+		(property "Reference" "#PWR01202"
+			(at 71.755 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.755 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a6084f4-034e-4cec-bc74-f1ead80c24fe")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 159.385 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f8f770-324f-40e3-8b1b-aad688902ed2")
+		(property "Reference" "#PWR01228"
+			(at 159.385 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 159.385 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 159.385 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45fd2b0b-58d2-47d8-8802-c07bcab3866d")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 127.635 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a711f1a7-4dc1-440a-87e1-8fbbb6896ea2")
+		(property "Reference" "C1006"
+			(at 129.9718 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 129.9718 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127.635 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 127.635 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 127.635 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d2a6e9d-c2e1-4434-92b2-658a116ac594")
+		)
+		(pin "2"
+			(uuid "9e1e1eef-0d77-48f7-adeb-a2db0da1ae58")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.795 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a991116f-8b61-48a6-b4ef-4f04b9f5c351")
+		(property "Reference" "#PWR01206"
+			(at 137.795 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.795 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.795 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.795 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.795 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e31f9f3-40e2-4e03-a9a7-2005812220ea")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.305 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4243bf-b422-4506-90c2-5c3d2f340812")
+		(property "Reference" "#PWR01207"
+			(at 154.305 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.305 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.305 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.305 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "756de03b-20b3-4567-9e76-d2225ac7c840")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 104.775 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4de4bd2-f605-4856-9885-9ec50a83fba1")
+		(property "Reference" "D1099"
+			(at 100.33 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 110.49 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 106.045 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 107.315 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.775 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 104.775 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 104.775 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5c11f33-28bc-4eb8-a3f4-900b904e9304")
+		)
+		(pin "2"
+			(uuid "a552a57e-be11-47bd-aef2-dcccfb61336c")
+		)
+		(pin "3"
+			(uuid "39c6fc24-00eb-40af-a835-f303972ba582")
+		)
+		(pin "4"
+			(uuid "571d8bcd-c751-4de5-8510-8abd62f96864")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.815 71.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90444a1-9807-4ac6-9337-9acf325feb10")
+		(property "Reference" "#PWR01208"
+			(at 170.815 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.815 76.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.815 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.815 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e2ebc45-9fea-4d4c-93f5-c2c88033b515")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 154.305 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbca763f-1811-4012-9d74-94379e17605c")
+		(property "Reference" "D1102"
+			(at 149.86 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 160.02 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 155.575 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 156.845 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 154.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 154.305 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7f7da27-31e7-45fb-800b-70e29dbe50c8")
+		)
+		(pin "2"
+			(uuid "88077912-6263-42ec-9586-b4a9b648701f")
+		)
+		(pin "3"
+			(uuid "2692f8b0-2abc-4d6e-9ebf-e81156d921c0")
+		)
+		(pin "4"
+			(uuid "43fe5cbd-163f-4ce9-933b-fed6bbcde849")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.315 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bff5e51e-f80b-4496-af85-df037a717162")
+		(property "Reference" "C1004"
+			(at 109.6518 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 109.6518 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 107.315 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.315 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 107.315 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 107.315 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98ea8331-d5f5-43db-84d2-a58878f0b23b")
+		)
+		(pin "2"
+			(uuid "5c432854-cc10-4c59-900f-ab2f595b4d44")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 187.325 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08f73c2-d8cd-4d1b-9eab-0fb3f3fece57")
+		(property "Reference" "D1104"
+			(at 182.88 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 193.04 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 188.595 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 189.865 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.325 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 187.325 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 187.325 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d03742e2-7eec-457e-a18c-0d3965a960e1")
+		)
+		(pin "2"
+			(uuid "b51bbdfc-7751-405f-bfb5-20c27dc52a2b")
+		)
+		(pin "3"
+			(uuid "a6fcda5b-7c41-47ce-90e2-0ddc78fe49d2")
+		)
+		(pin "4"
+			(uuid "1f7b6116-97c3-4310-85c0-03ef5047c3fd")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 187.325 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4e3eb64-982d-4f4d-86be-1c4c42ec8709")
+		(property "Reference" "#PWR01200"
+			(at 187.325 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 187.325 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.325 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.325 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.325 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5357637c-bd10-46db-a777-3b21fff0e593")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d54c1938-1180-4388-ad71-2a7c7687343f")
+		(property "Reference" "#PWR01220"
+			(at 76.2 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b89dce-139c-43d5-924d-c5dc53e524db")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 71.755 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d720f17c-e36d-4eda-ab72-37e7fb49e148")
+		(property "Reference" "D1097"
+			(at 67.31 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 77.47 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprints:WS2812-mini"
+			(at 73.025 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 74.295 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C527089"
+			(at 71.755 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 71.755 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9940b61-3a88-463f-b9f2-c5583e9b9111")
+		)
+		(pin "2"
+			(uuid "e065c36d-f354-481c-a191-976d45c9b4a7")
+		)
+		(pin "3"
+			(uuid "10e9a44d-e8ca-4d8d-af4e-630b8b3429e2")
+		)
+		(pin "4"
+			(uuid "71265875-a3cb-44a9-8319-285242daca8a")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "D1097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 97.155 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd25359e-4117-427e-9914-d64c3f0f3f5f")
+		(property "Reference" "#PWR01213"
+			(at 97.155 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 97.155 94.8492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a30fe4c-a645-4ce0-bb40-52748dc596f9")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.315 103.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6dccb0a-6bfa-4ff6-9f64-76bf218ba0ed")
+		(property "Reference" "#PWR01223"
+			(at 107.315 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.315 107.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.315 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.315 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab1ab862-e11a-403c-a1c2-f730f6919d85")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 203.835 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4aa498-bfe8-4c33-8728-b15b5e60b2b9")
+		(property "Reference" "#PWR01201"
+			(at 203.835 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 203.835 52.9392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.835 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.835 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f676d5f-0440-4c01-9cf2-9984d79add70")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "#PWR01201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 97.155 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb42d0c2-c60c-4b70-91a0-94fdad26d217")
+		(property "Reference" "C1003"
+			(at 99.4918 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.4918 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 97.155 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.155 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 97.155 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 97.155 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf01d894-63bd-457d-9856-93992f4ec5a5")
+		)
+		(pin "2"
+			(uuid "22345c66-c96a-4d2c-8b21-6f822a708b7f")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb8fbf27-e287-4534-a7a1-36119ebf3e95")
+		(property "Reference" "C1007"
+			(at 140.7668 99.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 140.7668 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "U labosu?" "ne"
+			(at 138.43 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C113803"
+			(at 138.43 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84c8611c-4161-42c3-83cc-a1fe84cc98c0")
+		)
+		(pin "2"
+			(uuid "c31552f3-9d21-4bd4-9944-c3ad4cd934c2")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9/57d82324-0abf-4328-b3f1-f817347d0876"
+					(reference "C1007")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

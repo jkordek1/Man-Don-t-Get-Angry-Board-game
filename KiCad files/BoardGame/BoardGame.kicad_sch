@@ -1,838 +1,1993 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 9f66d68b-38d2-4517-8629-387431399ae9)
-
-  (paper "A4")
-
-  (title_block
-    (title "BoardGame")
-    (date "2022-09-21")
-    (rev "1")
-  )
-
-  (lib_symbols
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VBUS" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VBUS_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VBUS_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 127.635 76.835) (xy 127.635 111.125))
-    (stroke (width 0) (type default))
-    (uuid 00275ae3-c788-4c44-b738-c8d5003f5118)
-  )
-  (wire (pts (xy 130.175 67.945) (xy 114.3 67.945))
-    (stroke (width 0) (type default))
-    (uuid 030078f2-5073-4316-a561-3e28ec647acd)
-  )
-  (wire (pts (xy 125.095 79.375) (xy 125.095 130.81))
-    (stroke (width 0) (type default))
-    (uuid 0ec29002-a489-44ce-8163-d4194473254b)
-  )
-  (polyline (pts (xy 136.525 60.96) (xy 136.525 179.705))
-    (stroke (width 0) (type default))
-    (uuid 1f28e1cd-9870-474e-b124-f2770b935aa4)
-  )
-
-  (wire (pts (xy 139.065 170.18) (xy 120.015 170.18))
-    (stroke (width 0) (type default))
-    (uuid 2200796b-9032-463b-bd1b-d6055065b8d2)
-  )
-  (polyline (pts (xy 138.43 60.96) (xy 166.37 60.96))
-    (stroke (width 0) (type default))
-    (uuid 2dab7615-9128-427c-8701-c3b7d01b4803)
-  )
-
-  (wire (pts (xy 71.12 78.105) (xy 83.82 78.105))
-    (stroke (width 0) (type default))
-    (uuid 2ed32139-7e8a-4df4-b07f-1a16bbd59911)
-  )
-  (wire (pts (xy 114.3 79.375) (xy 125.095 79.375))
-    (stroke (width 0) (type default))
-    (uuid 35c1a06a-cafd-4461-870a-cdfbcac3efa7)
-  )
-  (wire (pts (xy 127.635 65.405) (xy 127.635 36.83))
-    (stroke (width 0) (type default))
-    (uuid 464a92da-03f2-4c57-8943-22563bb5ae46)
-  )
-  (wire (pts (xy 71.12 84.455) (xy 83.82 84.455))
-    (stroke (width 0) (type default))
-    (uuid 4f843254-f4ee-4efa-ae39-5050fd709db8)
-  )
-  (wire (pts (xy 130.175 74.295) (xy 130.175 90.805))
-    (stroke (width 0) (type default))
-    (uuid 53ded923-d58b-403f-8fff-e8c7a84522db)
-  )
-  (wire (pts (xy 139.065 150.495) (xy 122.555 150.495))
-    (stroke (width 0) (type default))
-    (uuid 62aee1c7-6b69-466e-88b0-28dd43752256)
-  )
-  (wire (pts (xy 71.12 59.055) (xy 83.82 59.055))
-    (stroke (width 0) (type default))
-    (uuid 6990228e-e345-47fd-ba2a-324fc5314d99)
-  )
-  (wire (pts (xy 114.3 74.295) (xy 130.175 74.295))
-    (stroke (width 0) (type default))
-    (uuid 77cd2751-a690-466d-a2ac-023157faa2ab)
-  )
-  (wire (pts (xy 114.3 81.915) (xy 122.555 81.915))
-    (stroke (width 0) (type default))
-    (uuid 8b2a0e62-4a18-4c57-bc08-9e67cfa18710)
-  )
-  (wire (pts (xy 130.175 90.805) (xy 139.065 90.805))
-    (stroke (width 0) (type default))
-    (uuid 9e84bfc0-397a-4fed-8fd7-a8ea9f2e46f9)
-  )
-  (wire (pts (xy 125.095 34.29) (xy 125.095 62.865))
-    (stroke (width 0) (type default))
-    (uuid aaefb0e2-0d63-4172-8dc8-34277e324e3f)
-  )
-  (wire (pts (xy 114.3 71.755) (xy 139.065 71.755))
-    (stroke (width 0) (type default))
-    (uuid ac189bbf-ab99-44d0-9e79-fce59f56d416)
-  )
-  (wire (pts (xy 71.12 81.28) (xy 83.82 81.28))
-    (stroke (width 0) (type default))
-    (uuid ae7f0f4c-1c1f-4b55-9cfe-2e310450ea61)
-  )
-  (wire (pts (xy 139.065 111.125) (xy 127.635 111.125))
-    (stroke (width 0) (type default))
-    (uuid b101182f-3372-4741-806b-ee0e95cd10ce)
-  )
-  (polyline (pts (xy 136.525 179.705) (xy 166.37 179.705))
-    (stroke (width 0) (type default))
-    (uuid b62a48b4-ffee-4107-9ec7-7a8068663dcd)
-  )
-
-  (wire (pts (xy 120.015 170.18) (xy 120.015 84.455))
-    (stroke (width 0) (type default))
-    (uuid b7e81919-7e09-44f8-8f52-7e6f657063af)
-  )
-  (wire (pts (xy 127.635 36.83) (xy 136.525 36.83))
-    (stroke (width 0) (type default))
-    (uuid ba6fcc79-d76d-4eb0-bb7d-c28f38033fc1)
-  )
-  (wire (pts (xy 114.3 76.835) (xy 127.635 76.835))
-    (stroke (width 0) (type default))
-    (uuid badc6a50-e048-4430-b0a4-2ca187145932)
-  )
-  (wire (pts (xy 130.175 39.37) (xy 136.525 39.37))
-    (stroke (width 0) (type default))
-    (uuid ca63d135-eb54-4818-abb5-963c74f9cdd8)
-  )
-  (wire (pts (xy 125.095 62.865) (xy 114.3 62.865))
-    (stroke (width 0) (type default))
-    (uuid ceab87f3-a081-4d34-9bf2-3faea2f7aa4d)
-  )
-  (wire (pts (xy 122.555 150.495) (xy 122.555 81.915))
-    (stroke (width 0) (type default))
-    (uuid cfdc3d59-527f-42c0-a307-0dac2143d587)
-  )
-  (wire (pts (xy 139.065 130.81) (xy 125.095 130.81))
-    (stroke (width 0) (type default))
-    (uuid d201c292-d7c8-40d0-aefb-943ddeb2ae8b)
-  )
-  (wire (pts (xy 71.12 61.595) (xy 83.82 61.595))
-    (stroke (width 0) (type default))
-    (uuid d419ce03-c023-47f4-afe0-454b62608ded)
-  )
-  (wire (pts (xy 125.095 34.29) (xy 136.525 34.29))
-    (stroke (width 0) (type default))
-    (uuid df1531ab-c94c-4f56-840c-e836a3f53cea)
-  )
-  (wire (pts (xy 114.3 84.455) (xy 120.015 84.455))
-    (stroke (width 0) (type default))
-    (uuid df1d5576-feaa-47f9-ac3f-001f76f01a4c)
-  )
-  (polyline (pts (xy 138.43 60.96) (xy 136.525 60.96))
-    (stroke (width 0) (type default))
-    (uuid df9e1e79-1cd5-4e5e-9796-ffe27501d1d5)
-  )
-
-  (wire (pts (xy 114.3 65.405) (xy 127.635 65.405))
-    (stroke (width 0) (type default))
-    (uuid ea37efde-3cdc-416c-8834-52965c43b85d)
-  )
-  (polyline (pts (xy 166.37 179.705) (xy 166.37 60.96))
-    (stroke (width 0) (type default))
-    (uuid ee6bae10-9f71-4527-b7bb-c640e01194c4)
-  )
-
-  (wire (pts (xy 71.12 64.135) (xy 83.82 64.135))
-    (stroke (width 0) (type default))
-    (uuid f3a379d0-3f36-4339-8f07-387077cd2f05)
-  )
-  (wire (pts (xy 130.175 39.37) (xy 130.175 67.945))
-    (stroke (width 0) (type default))
-    (uuid f94630fc-523b-457e-bfce-beb11431e6ac)
-  )
-
-  (text "TODO:\n- koristiti kompletnu englesku dokumentaciju\n- ispraviti napajanje dovedeno na ulaz boost convertera\n- maknuti kondenzator na reset tipkalu\n- github pojasniti fajlove\n- github dokumentirati skriptu"
-    (at 19.685 187.325 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5b09dc14-8a06-4bf8-aff5-248a3d7da5aa)
-  )
-  (text "N\nE\nO\nP\nI\nX\nE\nL\nS" (at 158.115 156.21 0)
-    (effects (font (size 5 5)) (justify left bottom))
-    (uuid 605333e4-c280-4da8-a56f-43ed39e2f449)
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 271.145 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0a7f1249-b681-42a8-8aa4-ba9bc15b6af3)
-    (property "Reference" "#FLG0103" (at 271.145 155.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 271.145 153.9042 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.145 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 271.145 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 25269e1b-8a94-4970-95e9-3c798a9a1ab8))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#FLG0103") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 240.665 157.48 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63d8fc42-e1e0-4a5b-8c81-187600d11b3b)
-    (property "Reference" "#FLG0101" (at 240.665 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 242.316 159.1838 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 240.665 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 240.665 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 757739ef-0091-429b-9c92-14317edc5810))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#FLG0101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 240.665 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 734b1c6c-4834-4550-ac92-289626629bb9)
-    (property "Reference" "#PWR0101" (at 240.665 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 240.665 153.9042 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 240.665 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 240.665 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7fe9c8bb-3363-4e0d-a338-a1c2553fbab5))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#PWR0101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 255.27 157.48 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7d9e831d-e280-4571-b23d-46cf1c2b3c10)
-    (property "Reference" "#FLG0102" (at 255.27 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 256.921 159.1838 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 255.27 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 255.27 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 468df7b4-b0cf-4f4d-9145-f7b5483a05c3))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#FLG0102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 271.145 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 98d09bc6-5ae2-4196-8578-544f2160eb47)
-    (property "Reference" "#PWR0103" (at 271.145 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 271.145 161.9234 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.145 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 271.145 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8757eae-374b-43c9-ab7e-e2a31dc3729b))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#PWR0103") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VBUS") (at 255.27 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b67bdd32-a3d2-4f68-8af0-d716deec27e9)
-    (property "Reference" "#PWR0102" (at 255.27 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 255.27 153.9042 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 255.27 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 255.27 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e2d1c034-05b1-4bbb-9b26-1964e8c45aca))
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9"
-          (reference "#PWR0102") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 40.64 73.025) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
-    (fill (color 255 229 191 1.0000))
-    (uuid 137cdba1-cde3-4c49-b42e-e13f2be356c7)
-    (property "Sheetname" "Battery charger" (at 40.64 71.9484 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "Battery charger.kicad_sch" (at 40.64 104.0896 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "PG" output (at 71.12 84.455 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 54700ae9-850d-4e4a-b690-895d0512c89f)
-    )
-    (pin "STAT1" output (at 71.12 78.105 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 421404a8-4a64-41e4-a44c-2b7f177c5f91)
-    )
-    (pin "STAT2" output (at 71.12 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 920c572a-192e-4066-8a70-075198359a03)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 84.455) (size 13.97 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid 32dde120-04c0-4b9b-8629-f9a39c8c1834)
-    (property "Sheetname" "Path LEDs" (at 139.065 83.7434 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Path LEDs.kicad_sch" (at 139.065 99.0096 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_2" input (at 139.065 90.805 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid db4c7c03-9ed4-4326-85cd-a930e54b4297)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 246.38 116.205) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid 451bdb88-099a-45fd-b563-6afcc15e7e5f)
-    (property "Sheetname" "Mechanical" (at 246.38 115.1284 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "Mechanical.kicad_sch" (at 246.38 147.2696 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 83.82 56.515) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
-    (fill (color 255 229 191 1.0000))
-    (uuid 4ee94e79-8f79-4d3c-86ca-8e64aae4ab70)
-    (property "Sheetname" "Microcontroller" (at 83.82 55.4384 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "Microcontroller.kicad_sch" (at 83.82 87.5796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "RX" input (at 83.82 59.055 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4b253f4c-14c5-4fe4-9d11-26dd34c0675d)
-    )
-    (pin "TX" output (at 83.82 61.595 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6506dee7-43fa-4ffb-8556-fdec74d1d2f3)
-    )
-    (pin "RESET" input (at 83.82 64.135 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 49ba906e-8050-416e-84b3-dd5524aee913)
-    )
-    (pin "SDA" bidirectional (at 114.3 65.405 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 926ab0d4-ef95-4115-9ef3-6845bda75b88)
-    )
-    (pin "SCL" output (at 114.3 62.865 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 260339f7-18c8-4bc3-a206-fe4812d69ee6)
-    )
-    (pin "STAT1" input (at 83.82 78.105 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5da650ef-64ff-48c2-8d66-18537517dd5f)
-    )
-    (pin "STAT2" input (at 83.82 81.28 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 175c84a9-c852-47d7-a46c-5d3018a4f537)
-    )
-    (pin "PG" input (at 83.82 84.455 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d84885ec-b307-4549-bbc3-1e23fdf34be8)
-    )
-    (pin "INT" input (at 114.3 67.945 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d59d89ed-a714-431c-8e56-80fdf6702eaa)
-    )
-    (pin "NP_1" output (at 114.3 71.755 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fe9c9aab-6288-4dde-9446-a89fb36fb8f2)
-    )
-    (pin "NP_2" output (at 114.3 74.295 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c7b1a103-c928-4661-a3dd-93d1dd6892c4)
-    )
-    (pin "NP_6" output (at 114.3 84.455 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 426b5a27-ddf0-452e-ad28-f4044ee963bb)
-    )
-    (pin "NP_4" output (at 114.3 79.375 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a1f80752-4526-44da-b096-a8d97724d884)
-    )
-    (pin "NP_5" output (at 114.3 81.915 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 629bbf84-7b33-4911-85cd-3f4dea5bb716)
-    )
-    (pin "NP_3" output (at 114.3 76.835 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b26e3d66-93be-4d9e-b47e-2d4c6c2927d7)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 143.51) (size 13.97 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid 522b0d86-69b3-4867-83a4-c5bdcf091b48)
-    (property "Sheetname" "Touchpad LEDs" (at 139.065 142.7984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Touchpad LEDs.kicad_sch" (at 139.065 158.0646 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_5" input (at 139.065 150.495 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cd7957cd-1209-4164-9939-164e8c3903bb)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 104.14) (size 13.97 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid 57d82324-0abf-4328-b3f1-f817347d0876)
-    (property "Sheetname" "Dice LEDs" (at 139.065 103.4284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Dice LEDs.kicad_sch" (at 139.065 118.6946 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_3" input (at 139.065 111.125 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f04c1c2c-adba-464b-95f7-a0c03211b04a)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 123.825) (size 13.97 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid 91ba8d27-07f1-4eba-bfbc-975a120c117b)
-    (property "Sheetname" "Safehouse LEDs" (at 139.065 123.1134 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Safehouse LEDs.kicad_sch" (at 139.065 138.3796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_4" input (at 139.065 130.81 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 12d09135-c290-488a-91c8-a0abb7f167d9)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 40.64 37.465) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
-    (fill (color 255 229 191 1.0000))
-    (uuid ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1)
-    (property "Sheetname" "USB" (at 40.64 36.3884 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 40.64 68.5296 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "RX" output (at 71.12 59.055 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b5bb5906-9cb3-4a2e-8527-7890cf235253)
-    )
-    (pin "TX" input (at 71.12 61.595 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2829de1b-6490-47a6-8dfc-222ab5af25af)
-    )
-    (pin "RESET" output (at 71.12 64.135 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a79655a7-089a-422d-a92c-5e21245b6bd3)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 83.82 95.25) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
-    (fill (color 255 229 191 1.0000))
-    (uuid bfec7ff5-12b5-4af9-9131-b19e09596ace)
-    (property "Sheetname" "Boost Converter" (at 83.82 94.1734 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "Boost Converter.kicad_sch" (at 83.82 126.3146 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 64.77) (size 13.97 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid c5cd13b3-9b34-4e8f-b70a-79b705a37663)
-    (property "Sheetname" "Finish LEDs" (at 139.065 64.0584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Finish LEDs.kicad_sch" (at 139.065 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_1" input (at 139.065 71.755 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid af301a38-4606-4a62-bcc8-02ad96739abb)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 139.065 163.195) (size 14.605 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 229 191 1.0000))
-    (uuid cb2d0caa-d94a-4d9d-8880-03511cd9ebd5)
-    (property "Sheetname" "Battery indicator LED" (at 139.065 162.4834 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Battery indicator LED.kicad_sch" (at 139.065 177.7496 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "NP_6" input (at 139.065 170.18 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 22aeb369-4de7-439c-8db9-5d3437f132fc)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 136.525 27.94) (size 30.48 30.48) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 1))
-    (fill (color 255 229 191 1.0000))
-    (uuid defa6cf4-007a-48e8-ac65-029b900cd1cd)
-    (property "Sheetname" "IO Expander" (at 136.525 26.8634 0)
-      (effects (font (size 2 2)) (justify left bottom))
-    )
-    (property "Sheetfile" "IO Expander.kicad_sch" (at 136.525 59.0046 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "SCL" input (at 136.525 34.29 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9ad69841-b0b0-4b6b-b586-c418ce361c62)
-    )
-    (pin "SDA" bidirectional (at 136.525 36.83 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 81c632f1-d931-4c3d-aed7-3847e60c58c1)
-    )
-    (pin "INT" output (at 136.525 39.37 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5aa08cef-4b91-447a-a0f2-b4140f78b9d2)
-    )
-    (instances
-      (project "BoardGame"
-        (path "/9f66d68b-38d2-4517-8629-387431399ae9" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9f66d68b-38d2-4517-8629-387431399ae9")
+	(paper "A4")
+	(title_block
+		(title "BoardGame")
+		(date "2022-09-21")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 127.635 76.835) (xy 127.635 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00275ae3-c788-4c44-b738-c8d5003f5118")
+	)
+	(wire
+		(pts
+			(xy 130.175 67.945) (xy 114.3 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030078f2-5073-4316-a561-3e28ec647acd")
+	)
+	(wire
+		(pts
+			(xy 125.095 79.375) (xy 125.095 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec29002-a489-44ce-8163-d4194473254b")
+	)
+	(polyline
+		(pts
+			(xy 136.525 60.96) (xy 136.525 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f28e1cd-9870-474e-b124-f2770b935aa4")
+	)
+	(wire
+		(pts
+			(xy 139.065 170.18) (xy 120.015 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2200796b-9032-463b-bd1b-d6055065b8d2")
+	)
+	(polyline
+		(pts
+			(xy 138.43 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dab7615-9128-427c-8701-c3b7d01b4803")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.105) (xy 83.82 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed32139-7e8a-4df4-b07f-1a16bbd59911")
+	)
+	(wire
+		(pts
+			(xy 114.3 79.375) (xy 125.095 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c1a06a-cafd-4461-870a-cdfbcac3efa7")
+	)
+	(wire
+		(pts
+			(xy 127.635 65.405) (xy 127.635 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464a92da-03f2-4c57-8943-22563bb5ae46")
+	)
+	(wire
+		(pts
+			(xy 71.12 84.455) (xy 83.82 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f843254-f4ee-4efa-ae39-5050fd709db8")
+	)
+	(wire
+		(pts
+			(xy 130.175 74.295) (xy 130.175 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ded923-d58b-403f-8fff-e8c7a84522db")
+	)
+	(wire
+		(pts
+			(xy 139.065 150.495) (xy 122.555 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aee1c7-6b69-466e-88b0-28dd43752256")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.055) (xy 83.82 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6990228e-e345-47fd-ba2a-324fc5314d99")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.295) (xy 130.175 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cd2751-a690-466d-a2ac-023157faa2ab")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.915) (xy 122.555 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2a0e62-4a18-4c57-bc08-9e67cfa18710")
+	)
+	(wire
+		(pts
+			(xy 130.175 90.805) (xy 139.065 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e84bfc0-397a-4fed-8fd7-a8ea9f2e46f9")
+	)
+	(wire
+		(pts
+			(xy 125.095 34.29) (xy 125.095 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaefb0e2-0d63-4172-8dc8-34277e324e3f")
+	)
+	(wire
+		(pts
+			(xy 114.3 71.755) (xy 139.065 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac189bbf-ab99-44d0-9e79-fce59f56d416")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7f0f4c-1c1f-4b55-9cfe-2e310450ea61")
+	)
+	(wire
+		(pts
+			(xy 139.065 111.125) (xy 127.635 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b101182f-3372-4741-806b-ee0e95cd10ce")
+	)
+	(polyline
+		(pts
+			(xy 136.525 179.705) (xy 166.37 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62a48b4-ffee-4107-9ec7-7a8068663dcd")
+	)
+	(wire
+		(pts
+			(xy 120.015 170.18) (xy 120.015 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e81919-7e09-44f8-8f52-7e6f657063af")
+	)
+	(wire
+		(pts
+			(xy 127.635 36.83) (xy 136.525 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6fcc79-d76d-4eb0-bb7d-c28f38033fc1")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.835) (xy 127.635 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badc6a50-e048-4430-b0a4-2ca187145932")
+	)
+	(wire
+		(pts
+			(xy 130.175 39.37) (xy 136.525 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca63d135-eb54-4818-abb5-963c74f9cdd8")
+	)
+	(wire
+		(pts
+			(xy 125.095 62.865) (xy 114.3 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceab87f3-a081-4d34-9bf2-3faea2f7aa4d")
+	)
+	(wire
+		(pts
+			(xy 122.555 150.495) (xy 122.555 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdc3d59-527f-42c0-a307-0dac2143d587")
+	)
+	(wire
+		(pts
+			(xy 139.065 130.81) (xy 125.095 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d201c292-d7c8-40d0-aefb-943ddeb2ae8b")
+	)
+	(wire
+		(pts
+			(xy 71.12 61.595) (xy 83.82 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d419ce03-c023-47f4-afe0-454b62608ded")
+	)
+	(wire
+		(pts
+			(xy 125.095 34.29) (xy 136.525 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1531ab-c94c-4f56-840c-e836a3f53cea")
+	)
+	(wire
+		(pts
+			(xy 114.3 84.455) (xy 120.015 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1d5576-feaa-47f9-ac3f-001f76f01a4c")
+	)
+	(polyline
+		(pts
+			(xy 138.43 60.96) (xy 136.525 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9e1e79-1cd5-4e5e-9796-ffe27501d1d5")
+	)
+	(wire
+		(pts
+			(xy 114.3 65.405) (xy 127.635 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea37efde-3cdc-416c-8834-52965c43b85d")
+	)
+	(polyline
+		(pts
+			(xy 166.37 179.705) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6bae10-9f71-4527-b7bb-c640e01194c4")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.135) (xy 83.82 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a379d0-3f36-4339-8f07-387077cd2f05")
+	)
+	(wire
+		(pts
+			(xy 130.175 39.37) (xy 130.175 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94630fc-523b-457e-bfce-beb11431e6ac")
+	)
+	(text "N\nE\nO\nP\nI\nX\nE\nL\nS"
+		(exclude_from_sim no)
+		(at 158.115 156.21 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left bottom)
+		)
+		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 271.145 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a7f1249-b681-42a8-8aa4-ba9bc15b6af3")
+		(property "Reference" "#FLG0103"
+			(at 271.145 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 271.145 153.9042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25269e1b-8a94-4970-95e9-3c798a9a1ab8")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 240.665 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d8fc42-e1e0-4a5b-8c81-187600d11b3b")
+		(property "Reference" "#FLG0101"
+			(at 240.665 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 242.316 159.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "757739ef-0091-429b-9c92-14317edc5810")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 240.665 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734b1c6c-4834-4550-ac92-289626629bb9")
+		(property "Reference" "#PWR0101"
+			(at 240.665 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 240.665 153.9042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.665 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe9c8bb-3363-4e0d-a338-a1c2553fbab5")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9e831d-e280-4571-b23d-46cf1c2b3c10")
+		(property "Reference" "#FLG0102"
+			(at 255.27 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 256.921 159.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468df7b4-b0cf-4f4d-9145-f7b5483a05c3")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.145 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d09bc6-5ae2-4196-8578-544f2160eb47")
+		(property "Reference" "#PWR0103"
+			(at 271.145 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.145 161.9234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8757eae-374b-43c9-ab7e-e2a31dc3729b")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 255.27 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b67bdd32-a3d2-4f68-8af0-d716deec27e9")
+		(property "Reference" "#PWR0102"
+			(at 255.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 255.27 153.9042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d1c034-05b1-4bbb-9b26-1964e8c45aca")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 73.025)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "137cdba1-cde3-4c49-b42e-e13f2be356c7")
+		(property "Sheetname" "Battery charger"
+			(at 40.64 71.9484 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery charger.kicad_sch"
+			(at 40.64 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PG" output
+			(at 71.12 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54700ae9-850d-4e4a-b690-895d0512c89f")
+		)
+		(pin "STAT1" output
+			(at 71.12 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "421404a8-4a64-41e4-a44c-2b7f177c5f91")
+		)
+		(pin "STAT2" output
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "920c572a-192e-4066-8a70-075198359a03")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 84.455)
+		(size 13.97 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "32dde120-04c0-4b9b-8629-f9a39c8c1834")
+		(property "Sheetname" "Path LEDs"
+			(at 139.065 83.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Path LEDs.kicad_sch"
+			(at 139.065 99.0096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_2" input
+			(at 139.065 90.805 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db4c7c03-9ed4-4326-85cd-a930e54b4297")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 116.205)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "451bdb88-099a-45fd-b563-6afcc15e7e5f")
+		(property "Sheetname" "Mechanical"
+			(at 246.38 115.1284 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 246.38 147.2696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 56.515)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "4ee94e79-8f79-4d3c-86ca-8e64aae4ab70")
+		(property "Sheetname" "Microcontroller"
+			(at 83.82 55.4384 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 83.82 87.5796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RX" input
+			(at 83.82 59.055 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b253f4c-14c5-4fe4-9d11-26dd34c0675d")
+		)
+		(pin "TX" output
+			(at 83.82 61.595 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6506dee7-43fa-4ffb-8556-fdec74d1d2f3")
+		)
+		(pin "RESET" input
+			(at 83.82 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49ba906e-8050-416e-84b3-dd5524aee913")
+		)
+		(pin "SDA" bidirectional
+			(at 114.3 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "926ab0d4-ef95-4115-9ef3-6845bda75b88")
+		)
+		(pin "SCL" output
+			(at 114.3 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "260339f7-18c8-4bc3-a206-fe4812d69ee6")
+		)
+		(pin "STAT1" input
+			(at 83.82 78.105 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5da650ef-64ff-48c2-8d66-18537517dd5f")
+		)
+		(pin "STAT2" input
+			(at 83.82 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "175c84a9-c852-47d7-a46c-5d3018a4f537")
+		)
+		(pin "PG" input
+			(at 83.82 84.455 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d84885ec-b307-4549-bbc3-1e23fdf34be8")
+		)
+		(pin "INT" input
+			(at 114.3 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d59d89ed-a714-431c-8e56-80fdf6702eaa")
+		)
+		(pin "NP_1" output
+			(at 114.3 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe9c9aab-6288-4dde-9446-a89fb36fb8f2")
+		)
+		(pin "NP_2" output
+			(at 114.3 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7b1a103-c928-4661-a3dd-93d1dd6892c4")
+		)
+		(pin "NP_6" output
+			(at 114.3 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "426b5a27-ddf0-452e-ad28-f4044ee963bb")
+		)
+		(pin "NP_4" output
+			(at 114.3 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a1f80752-4526-44da-b096-a8d97724d884")
+		)
+		(pin "NP_5" output
+			(at 114.3 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "629bbf84-7b33-4911-85cd-3f4dea5bb716")
+		)
+		(pin "NP_3" output
+			(at 114.3 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b26e3d66-93be-4d9e-b47e-2d4c6c2927d7")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 143.51)
+		(size 13.97 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "522b0d86-69b3-4867-83a4-c5bdcf091b48")
+		(property "Sheetname" "Touchpad LEDs"
+			(at 139.065 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Touchpad LEDs.kicad_sch"
+			(at 139.065 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_5" input
+			(at 139.065 150.495 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd7957cd-1209-4164-9939-164e8c3903bb")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 104.14)
+		(size 13.97 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "57d82324-0abf-4328-b3f1-f817347d0876")
+		(property "Sheetname" "Dice LEDs"
+			(at 139.065 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Dice LEDs.kicad_sch"
+			(at 139.065 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_3" input
+			(at 139.065 111.125 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f04c1c2c-adba-464b-95f7-a0c03211b04a")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 123.825)
+		(size 13.97 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "91ba8d27-07f1-4eba-bfbc-975a120c117b")
+		(property "Sheetname" "Safehouse LEDs"
+			(at 139.065 123.1134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Safehouse LEDs.kicad_sch"
+			(at 139.065 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_4" input
+			(at 139.065 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12d09135-c290-488a-91c8-a0abb7f167d9")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 37.465)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1")
+		(property "Sheetname" "USB"
+			(at 40.64 36.3884 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 40.64 68.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RX" output
+			(at 71.12 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5bb5906-9cb3-4a2e-8527-7890cf235253")
+		)
+		(pin "TX" input
+			(at 71.12 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2829de1b-6490-47a6-8dfc-222ab5af25af")
+		)
+		(pin "RESET" output
+			(at 71.12 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a79655a7-089a-422d-a92c-5e21245b6bd3")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 95.25)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "bfec7ff5-12b5-4af9-9131-b19e09596ace")
+		(property "Sheetname" "Boost Converter"
+			(at 83.82 94.1734 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boost Converter.kicad_sch"
+			(at 83.82 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 64.77)
+		(size 13.97 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "c5cd13b3-9b34-4e8f-b70a-79b705a37663")
+		(property "Sheetname" "Finish LEDs"
+			(at 139.065 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Finish LEDs.kicad_sch"
+			(at 139.065 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_1" input
+			(at 139.065 71.755 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af301a38-4606-4a62-bcc8-02ad96739abb")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.065 163.195)
+		(size 14.605 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "cb2d0caa-d94a-4d9d-8880-03511cd9ebd5")
+		(property "Sheetname" "Battery indicator LED"
+			(at 139.065 162.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery indicator LED.kicad_sch"
+			(at 139.065 177.7496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "NP_6" input
+			(at 139.065 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22aeb369-4de7-439c-8db9-5d3437f132fc")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.525 27.94)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "defa6cf4-007a-48e8-ac65-029b900cd1cd")
+		(property "Sheetname" "IO Expander"
+			(at 136.525 26.8634 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO Expander.kicad_sch"
+			(at 136.525 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "SCL" input
+			(at 136.525 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ad69841-b0b0-4b6b-b586-c418ce361c62")
+		)
+		(pin "SDA" bidirectional
+			(at 136.525 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81c632f1-d931-4c3d-aed7-3847e60c58c1")
+		)
+		(pin "INT" output
+			(at 136.525 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5aa08cef-4b91-447a-a0f2-b4140f78b9d2")
+		)
+		(instances
+			(project "BoardGame"
+				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

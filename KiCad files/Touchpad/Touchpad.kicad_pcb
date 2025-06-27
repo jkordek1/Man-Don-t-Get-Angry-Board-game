@@ -3561,36 +3561,6 @@
 		(layer "Edge.Cuts")
 		(uuid "f52cf5a9-c64c-410b-99ca-6b347ff867c5")
 	)
-	(gr_line
-		(start 227.7 89)
-		(end 169.8 89)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "0874e8cf-e739-4833-8d6a-d8ca4d8dec1f")
-	)
-	(gr_line
-		(start 227.7 106.5)
-		(end 169.9 106.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "182eeb5f-4321-4b29-b7e5-dc169a84148e")
-	)
-	(gr_line
-		(start 199.8 98.8)
-		(end 199.8 114.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "69e1a57a-fba5-4b11-b9b2-2aaef3c8b75a")
-	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 182 78 0)
 		(layer "B.SilkS")

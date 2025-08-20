@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.10)"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2023-01-10T10:46:11+01:00"
+    "CreationDate": "2025-08-20T12:15:09+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -72,11 +72,6 @@
       "Path": "BoardGame-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
-    },
-    {
-      "Path": "BoardGame-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
-      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [

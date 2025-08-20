@@ -1,24 +1,109 @@
-(footprint "WS2812-mini" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 6146ED26)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 3.2) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0be455d7-9219-470e-8eb0-7925a3f97f66)
-  )
-  (fp_text value "WS2812-mini" (at 0 -0.5) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f886ffaf-1f6a-4587-bede-09aad32c7906)
-  )
-  (fp_line (start -2.9 -2) (end -2.5 -2) (layer "F.SilkS") (width 0.25) (tstamp 5910603f-3aac-4938-b705-4ddce730f20d))
-  (fp_line (start -2.9 -1.6) (end -2.9 -2) (layer "F.SilkS") (width 0.25) (tstamp 8b28cf45-b6d7-4f85-9068-6a68483ad31d))
-  (pad "1" smd rect (at -1.64 -0.89) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e6baf82-1448-4d68-8aef-496f449563d1))
-  (pad "2" smd rect (at -1.64 0.89) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3bd73262-7ee1-4541-8298-a0d7411e1d75))
-  (pad "3" smd rect (at 1.64 0.89) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42b93640-dc22-413d-916b-9e4ab2755ea6))
-  (pad "4" smd rect (at 1.64 -0.89) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87a79b8f-2884-4c6d-9e08-6da03103a9bc))
-  (model "C:/Users/Josip/Documents/GitHub/CNLJS/KiCad files/3D models/WS2812B Mini.step"
-    (offset (xyz 0 0 1.9))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "WS2812-mini"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.2 0)
+		(layer "F.SilkS")
+		(uuid "0be455d7-9219-470e-8eb0-7925a3f97f66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WS2812-mini"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "f886ffaf-1f6a-4587-bede-09aad32c7906")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52b73c6c-2822-4af7-8bf0-af744bc9b91c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c8658b4-cd50-4ceb-b66d-e140728c0c3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.9 -2)
+		(end -2.5 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5910603f-3aac-4938-b705-4ddce730f20d")
+	)
+	(fp_line
+		(start -2.9 -1.6)
+		(end -2.9 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b28cf45-b6d7-4f85-9068-6a68483ad31d")
+	)
+	(pad "1" smd rect
+		(at -1.64 -0.89)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e6baf82-1448-4d68-8aef-496f449563d1")
+	)
+	(pad "2" smd rect
+		(at -1.64 0.89)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3bd73262-7ee1-4541-8298-a0d7411e1d75")
+	)
+	(pad "3" smd rect
+		(at 1.64 0.89)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42b93640-dc22-413d-916b-9e4ab2755ea6")
+	)
+	(pad "4" smd rect
+		(at 1.64 -0.89)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87a79b8f-2884-4c6d-9e08-6da03103a9bc")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Josip/Documents/GitHub/Man-Don-t-Get-Angry-Board-game/KiCad files/3D models/WS2812B Mini.step"
+		(offset
+			(xyz 0 0 1.95)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

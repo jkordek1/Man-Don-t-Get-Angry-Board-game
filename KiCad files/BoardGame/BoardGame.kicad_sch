@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9f66d68b-38d2-4517-8629-387431399ae9")
 	(paper "A4")
 	(title_block
@@ -88,7 +88,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -105,12 +106,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -201,6 +207,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
@@ -278,7 +285,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -290,7 +297,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -304,7 +311,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -321,6 +329,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
@@ -398,7 +407,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -410,7 +419,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -424,7 +433,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VCC"
 						(effects
 							(font
@@ -441,7 +451,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "N\nE\nO\nP\nI\nX\nE\nL\nS"
+		(exclude_from_sim no)
+		(at 158.115 156.21 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left bottom)
+		)
+		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
 	)
 	(wire
 		(pts
@@ -802,17 +824,6 @@
 			(type default)
 		)
 		(uuid "f94630fc-523b-457e-bfce-beb11431e6ac")
-	)
-	(text "N\nE\nO\nP\nI\nX\nE\nL\nS"
-		(exclude_from_sim no)
-		(at 158.115 156.21 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-			(justify left bottom)
-		)
-		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -1215,6 +1226,10 @@
 	(sheet
 		(at 40.64 73.025)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1246,33 +1261,33 @@
 		)
 		(pin "PG" output
 			(at 71.12 84.455 0)
+			(uuid "54700ae9-850d-4e4a-b690-895d0512c89f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "54700ae9-850d-4e4a-b690-895d0512c89f")
 		)
 		(pin "STAT1" output
 			(at 71.12 78.105 0)
+			(uuid "421404a8-4a64-41e4-a44c-2b7f177c5f91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "421404a8-4a64-41e4-a44c-2b7f177c5f91")
 		)
 		(pin "STAT2" output
 			(at 71.12 81.28 0)
+			(uuid "920c572a-192e-4066-8a70-075198359a03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "920c572a-192e-4066-8a70-075198359a03")
 		)
 		(instances
 			(project "BoardGame"
@@ -1285,6 +1300,10 @@
 	(sheet
 		(at 139.065 84.455)
 		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1315,13 +1334,13 @@
 		)
 		(pin "NP_2" input
 			(at 139.065 90.805 180)
+			(uuid "db4c7c03-9ed4-4326-85cd-a930e54b4297")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db4c7c03-9ed4-4326-85cd-a930e54b4297")
 		)
 		(instances
 			(project "BoardGame"
@@ -1334,6 +1353,10 @@
 	(sheet
 		(at 246.38 116.205)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1373,6 +1396,10 @@
 	(sheet
 		(at 83.82 56.515)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1404,153 +1431,153 @@
 		)
 		(pin "RX" input
 			(at 83.82 59.055 180)
+			(uuid "4b253f4c-14c5-4fe4-9d11-26dd34c0675d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4b253f4c-14c5-4fe4-9d11-26dd34c0675d")
 		)
 		(pin "TX" output
 			(at 83.82 61.595 180)
+			(uuid "6506dee7-43fa-4ffb-8556-fdec74d1d2f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6506dee7-43fa-4ffb-8556-fdec74d1d2f3")
 		)
 		(pin "RESET" input
 			(at 83.82 64.135 180)
+			(uuid "49ba906e-8050-416e-84b3-dd5524aee913")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49ba906e-8050-416e-84b3-dd5524aee913")
 		)
 		(pin "SDA" bidirectional
 			(at 114.3 65.405 0)
+			(uuid "926ab0d4-ef95-4115-9ef3-6845bda75b88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "926ab0d4-ef95-4115-9ef3-6845bda75b88")
 		)
 		(pin "SCL" output
 			(at 114.3 62.865 0)
+			(uuid "260339f7-18c8-4bc3-a206-fe4812d69ee6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "260339f7-18c8-4bc3-a206-fe4812d69ee6")
 		)
 		(pin "STAT1" input
 			(at 83.82 78.105 180)
+			(uuid "5da650ef-64ff-48c2-8d66-18537517dd5f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5da650ef-64ff-48c2-8d66-18537517dd5f")
 		)
 		(pin "STAT2" input
 			(at 83.82 81.28 180)
+			(uuid "175c84a9-c852-47d7-a46c-5d3018a4f537")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "175c84a9-c852-47d7-a46c-5d3018a4f537")
 		)
 		(pin "PG" input
 			(at 83.82 84.455 180)
+			(uuid "d84885ec-b307-4549-bbc3-1e23fdf34be8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d84885ec-b307-4549-bbc3-1e23fdf34be8")
 		)
 		(pin "INT" input
 			(at 114.3 67.945 0)
+			(uuid "d59d89ed-a714-431c-8e56-80fdf6702eaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d59d89ed-a714-431c-8e56-80fdf6702eaa")
 		)
 		(pin "NP_1" output
 			(at 114.3 71.755 0)
+			(uuid "fe9c9aab-6288-4dde-9446-a89fb36fb8f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe9c9aab-6288-4dde-9446-a89fb36fb8f2")
 		)
 		(pin "NP_2" output
 			(at 114.3 74.295 0)
+			(uuid "c7b1a103-c928-4661-a3dd-93d1dd6892c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7b1a103-c928-4661-a3dd-93d1dd6892c4")
 		)
 		(pin "NP_6" output
 			(at 114.3 84.455 0)
+			(uuid "426b5a27-ddf0-452e-ad28-f4044ee963bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "426b5a27-ddf0-452e-ad28-f4044ee963bb")
 		)
 		(pin "NP_4" output
 			(at 114.3 79.375 0)
+			(uuid "a1f80752-4526-44da-b096-a8d97724d884")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a1f80752-4526-44da-b096-a8d97724d884")
 		)
 		(pin "NP_5" output
 			(at 114.3 81.915 0)
+			(uuid "629bbf84-7b33-4911-85cd-3f4dea5bb716")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "629bbf84-7b33-4911-85cd-3f4dea5bb716")
 		)
 		(pin "NP_3" output
 			(at 114.3 76.835 0)
+			(uuid "b26e3d66-93be-4d9e-b47e-2d4c6c2927d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b26e3d66-93be-4d9e-b47e-2d4c6c2927d7")
 		)
 		(instances
 			(project "BoardGame"
@@ -1563,6 +1590,10 @@
 	(sheet
 		(at 139.065 143.51)
 		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1593,13 +1624,13 @@
 		)
 		(pin "NP_5" input
 			(at 139.065 150.495 180)
+			(uuid "cd7957cd-1209-4164-9939-164e8c3903bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd7957cd-1209-4164-9939-164e8c3903bb")
 		)
 		(instances
 			(project "BoardGame"
@@ -1612,6 +1643,10 @@
 	(sheet
 		(at 139.065 104.14)
 		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1642,13 +1677,13 @@
 		)
 		(pin "NP_3" input
 			(at 139.065 111.125 180)
+			(uuid "f04c1c2c-adba-464b-95f7-a0c03211b04a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f04c1c2c-adba-464b-95f7-a0c03211b04a")
 		)
 		(instances
 			(project "BoardGame"
@@ -1661,6 +1696,10 @@
 	(sheet
 		(at 139.065 123.825)
 		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1691,13 +1730,13 @@
 		)
 		(pin "NP_4" input
 			(at 139.065 130.81 180)
+			(uuid "12d09135-c290-488a-91c8-a0abb7f167d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "12d09135-c290-488a-91c8-a0abb7f167d9")
 		)
 		(instances
 			(project "BoardGame"
@@ -1710,6 +1749,10 @@
 	(sheet
 		(at 40.64 37.465)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1741,33 +1784,33 @@
 		)
 		(pin "RX" output
 			(at 71.12 59.055 0)
+			(uuid "b5bb5906-9cb3-4a2e-8527-7890cf235253")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b5bb5906-9cb3-4a2e-8527-7890cf235253")
 		)
 		(pin "TX" input
 			(at 71.12 61.595 0)
+			(uuid "2829de1b-6490-47a6-8dfc-222ab5af25af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2829de1b-6490-47a6-8dfc-222ab5af25af")
 		)
 		(pin "RESET" output
 			(at 71.12 64.135 0)
+			(uuid "a79655a7-089a-422d-a92c-5e21245b6bd3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a79655a7-089a-422d-a92c-5e21245b6bd3")
 		)
 		(instances
 			(project "BoardGame"
@@ -1780,6 +1823,10 @@
 	(sheet
 		(at 83.82 95.25)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1820,6 +1867,10 @@
 	(sheet
 		(at 139.065 64.77)
 		(size 13.97 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1850,13 +1901,13 @@
 		)
 		(pin "NP_1" input
 			(at 139.065 71.755 180)
+			(uuid "af301a38-4606-4a62-bcc8-02ad96739abb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af301a38-4606-4a62-bcc8-02ad96739abb")
 		)
 		(instances
 			(project "BoardGame"
@@ -1869,6 +1920,10 @@
 	(sheet
 		(at 139.065 163.195)
 		(size 14.605 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1899,13 +1954,13 @@
 		)
 		(pin "NP_6" input
 			(at 139.065 170.18 180)
+			(uuid "22aeb369-4de7-439c-8db9-5d3437f132fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "22aeb369-4de7-439c-8db9-5d3437f132fc")
 		)
 		(instances
 			(project "BoardGame"
@@ -1918,6 +1973,10 @@
 	(sheet
 		(at 136.525 27.94)
 		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1949,33 +2008,33 @@
 		)
 		(pin "SCL" input
 			(at 136.525 34.29 180)
+			(uuid "9ad69841-b0b0-4b6b-b586-c418ce361c62")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9ad69841-b0b0-4b6b-b586-c418ce361c62")
 		)
 		(pin "SDA" bidirectional
 			(at 136.525 36.83 180)
+			(uuid "81c632f1-d931-4c3d-aed7-3847e60c58c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81c632f1-d931-4c3d-aed7-3847e60c58c1")
 		)
 		(pin "INT" output
 			(at 136.525 39.37 180)
+			(uuid "5aa08cef-4b91-447a-a0f2-b4140f78b9d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5aa08cef-4b91-447a-a0f2-b4140f78b9d2")
 		)
 		(instances
 			(project "BoardGame"
@@ -1990,4 +2049,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -514,7 +514,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Touchpad.net",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Touchpad.step",

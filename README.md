@@ -37,28 +37,28 @@ Idea of the project is to create an electronic version of the game to help promo
 - 3000mAh rechargable Li-Po battery
 - USB-C connector for charging and programming the microcontroller
 
+## 3D renders
+<img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/render.png" width="1000"/>
+
 ## Images
 <p align="center">
   <img width="500" src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/device.jpg">
 </p>
-
-## 3D renders
-<img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
 
 ## PCBs
 There are 3 different PCBs:
 
 **BoardGame** - main 150x150mm PCB that contains LEDs and most of the electronic components (1 needed)
 
-<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/BoardGame-front%20and%20back.png" width="1000"/>
+<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/main.png" width="1000"/>
 
 **Dice** - small PCB used as a touchpad (1 needed)
 
-<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/Dice-front%20and%20back.png"  width="600"/>
+<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/die.png"  width="600"/>
 
 **Touchpad** - PCB with 3 touchpads used as controls for the game (4 needed)
 
-<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/Touchpad-front%20and%20back.png"  width="600"/>
+<img src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/controls.png"  width="600"/>
 
 
 ## Enclosure

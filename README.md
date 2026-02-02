@@ -26,7 +26,7 @@ Idea of the project is to create an electronic version of the game to help promo
 - [ ] Programming
 
 ## Issues
-- Wrong power net (fixed in schematic), needs to be fixed in board editor
+- no active issues
 
 ## Main features
 - Based on popular ATmega328p microcontroller used on Arduino boards
